@@ -33,7 +33,7 @@ const Hero = () => {
             
             <h1 className="text-4xl md:text-6xl font-bold leading-tight mb-6">
               Votre Partenaire
-              <span className="block text-[#00338D]">Immobilier</span>
+              <span className="block text-white">Immobilier</span>
               au Sénégal
             </h1>
             
