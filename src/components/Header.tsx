@@ -24,7 +24,7 @@ const Header = () => {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <div className="flex items-center space-x-3">
-            <div className="w-10 h-10 gradient-senegal rounded-lg flex items-center justify-center">
+            <div className="w-10 h-10 gradient-brand rounded-lg flex items-center justify-center">
               <Building className="w-6 h-6 text-white" />
             </div>
             <div>
@@ -39,7 +39,7 @@ const Header = () => {
               <a
                 key={item.name}
                 href={item.href}
-                className="flex items-center space-x-2 text-gray-700 hover:text-senegal-green transition-colors duration-200"
+                className="flex items-center space-x-2 text-gray-700 hover:text-brand-blue transition-colors duration-200"
               >
                 <item.icon className="w-4 h-4" />
                 <span>{item.name}</span>
@@ -58,7 +58,7 @@ const Header = () => {
               <Globe className="w-4 h-4" />
               <span>{language.toUpperCase()}</span>
             </Button>
-            <Button className="bg-senegal-green hover:bg-senegal-green/90">
+            <Button className="bg-brand-blue hover:bg-brand-blue-dark">
               Consultation Gratuite
             </Button>
           </div>
@@ -84,7 +84,7 @@ const Header = () => {
                 <a
                   key={item.name}
                   href={item.href}
-                  className="flex items-center space-x-3 px-4 py-2 text-gray-700 hover:text-senegal-green hover:bg-gray-50 rounded-lg transition-colors duration-200"
+                  className="flex items-center space-x-3 px-4 py-2 text-gray-700 hover:text-brand-blue hover:bg-gray-50 rounded-lg transition-colors duration-200"
                   onClick={() => setIsMenuOpen(false)}
                 >
                   <item.icon className="w-5 h-5" />
@@ -101,7 +101,7 @@ const Header = () => {
                   <Globe className="w-4 h-4" />
                   <span>{language.toUpperCase()}</span>
                 </Button>
-                <Button className="w-full bg-senegal-green hover:bg-senegal-green/90">
+                <Button className="w-full bg-brand-blue hover:bg-brand-blue-dark">
                   Consultation Gratuite
                 </Button>
               </div>

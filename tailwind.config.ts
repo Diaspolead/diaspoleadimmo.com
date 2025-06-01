@@ -63,13 +63,15 @@ export default {
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
 				},
-				senegal: {
-					green: '#00853D',
-					yellow: '#FDD835',
-					red: '#E53E3E',
-					gold: '#D4AF37',
-					earth: '#8B4513',
-					cream: '#F5F5DC'
+				brand: {
+					blue: '#2563eb',
+					'blue-dark': '#1d4ed8',
+					'blue-light': '#3b82f6',
+					violet: '#7c3aed',
+					'violet-dark': '#6d28d9',
+					'violet-light': '#8b5cf6',
+					purple: '#9333ea',
+					indigo: '#4f46e5'
 				}
 			},
 			borderRadius: {

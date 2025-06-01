@@ -39,7 +39,7 @@ const Footer = () => {
           {/* Company Info */}
           <div className="space-y-6">
             <div className="flex items-center space-x-3">
-              <div className="w-10 h-10 gradient-senegal rounded-lg flex items-center justify-center">
+              <div className="w-10 h-10 gradient-brand rounded-lg flex items-center justify-center">
                 <Building className="w-6 h-6 text-white" />
               </div>
               <div>
@@ -55,15 +55,15 @@ const Footer = () => {
 
             <div className="space-y-3">
               <div className="flex items-center space-x-3 text-gray-300">
-                <Phone className="w-5 h-5 text-senegal-green" />
+                <Phone className="w-5 h-5 text-brand-blue" />
                 <span>+221 77 123 45 67</span>
               </div>
               <div className="flex items-center space-x-3 text-gray-300">
-                <Mail className="w-5 h-5 text-senegal-green" />
+                <Mail className="w-5 h-5 text-brand-blue" />
                 <span>contact@senegalestate.com</span>
               </div>
               <div className="flex items-center space-x-3 text-gray-300">
-                <MapPin className="w-5 h-5 text-senegal-green" />
+                <MapPin className="w-5 h-5 text-brand-blue" />
                 <span>Almadies, Dakar - Sénégal</span>
               </div>
             </div>
@@ -75,7 +75,7 @@ const Footer = () => {
                   key={index}
                   href={social.href}
                   aria-label={social.label}
-                  className="w-10 h-10 bg-gray-800 rounded-lg flex items-center justify-center hover:bg-senegal-green transition-colors duration-200"
+                  className="w-10 h-10 bg-gray-800 rounded-lg flex items-center justify-center hover:bg-brand-blue transition-colors duration-200"
                 >
                   <social.icon className="w-5 h-5" />
                 </a>
@@ -91,7 +91,7 @@ const Footer = () => {
                 <li key={index}>
                   <a 
                     href="#" 
-                    className="text-gray-300 hover:text-senegal-green transition-colors duration-200"
+                    className="text-gray-300 hover:text-brand-blue transition-colors duration-200"
                   >
                     {service}
                   </a>
@@ -108,7 +108,7 @@ const Footer = () => {
                 <li key={index}>
                   <a 
                     href="#" 
-                    className="text-gray-300 hover:text-senegal-green transition-colors duration-200"
+                    className="text-gray-300 hover:text-brand-blue transition-colors duration-200"
                   >
                     {item}
                   </a>
@@ -125,7 +125,7 @@ const Footer = () => {
                 <li key={index}>
                   <a 
                     href="#" 
-                    className="text-gray-300 hover:text-senegal-green transition-colors duration-200"
+                    className="text-gray-300 hover:text-brand-blue transition-colors duration-200"
                   >
                     {resource}
                   </a>
@@ -143,9 +143,9 @@ const Footer = () => {
                 <input
                   type="email"
                   placeholder="Votre email"
-                  className="flex-1 px-3 py-2 bg-gray-800 border border-gray-700 rounded-l-lg focus:outline-none focus:border-senegal-green"
+                  className="flex-1 px-3 py-2 bg-gray-800 border border-gray-700 rounded-l-lg focus:outline-none focus:border-brand-blue"
                 />
-                <button className="px-4 py-2 bg-senegal-green hover:bg-senegal-green/90 rounded-r-lg transition-colors duration-200">
+                <button className="px-4 py-2 bg-brand-blue hover:bg-brand-blue-dark rounded-r-lg transition-colors duration-200">
                   <Mail className="w-4 h-4" />
                 </button>
               </div>
@@ -160,13 +160,13 @@ const Footer = () => {
               © {currentYear} SenegalEstate. Tous droits réservés.
             </div>
             <div className="flex space-x-6 text-sm text-gray-400">
-              <a href="#" className="hover:text-senegal-green transition-colors duration-200">
+              <a href="#" className="hover:text-brand-blue transition-colors duration-200">
                 Mentions légales
               </a>
-              <a href="#" className="hover:text-senegal-green transition-colors duration-200">
+              <a href="#" className="hover:text-brand-blue transition-colors duration-200">
                 Politique de confidentialité
               </a>
-              <a href="#" className="hover:text-senegal-green transition-colors duration-200">
+              <a href="#" className="hover:text-brand-blue transition-colors duration-200">
                 CGU
               </a>
             </div>

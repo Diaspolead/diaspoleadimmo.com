@@ -35,7 +35,7 @@ const About = () => {
           <div>
             <h2 className="text-4xl font-bold text-gray-900 mb-6">
               Votre Partenaire de Confiance
-              <span className="block text-senegal-green">au Sénégal</span>
+              <span className="block text-brand-blue">au Sénégal</span>
             </h2>
             
             <div className="space-y-6 text-gray-700">
@@ -62,17 +62,17 @@ const About = () => {
 
             <div className="mt-8 flex items-center space-x-4">
               <div className="text-center">
-                <div className="text-3xl font-bold text-senegal-green">10+</div>
+                <div className="text-3xl font-bold text-brand-blue">10+</div>
                 <div className="text-sm text-gray-600">Années d'expérience</div>
               </div>
               <div className="w-px h-12 bg-gray-300"></div>
               <div className="text-center">
-                <div className="text-3xl font-bold text-senegal-gold">500M+</div>
+                <div className="text-3xl font-bold text-brand-violet">500M+</div>
                 <div className="text-sm text-gray-600">FCFA investis</div>
               </div>
               <div className="w-px h-12 bg-gray-300"></div>
               <div className="text-center">
-                <div className="text-3xl font-bold text-senegal-red">98%</div>
+                <div className="text-3xl font-bold text-brand-purple">98%</div>
                 <div className="text-sm text-gray-600">Clients satisfaits</div>
               </div>
             </div>
@@ -83,11 +83,11 @@ const About = () => {
             <h3 className="text-2xl font-bold text-gray-900 mb-8">Nos Valeurs</h3>
             
             {values.map((value, index) => (
-              <Card key={index} className="border-l-4 border-senegal-green hover:shadow-lg transition-shadow duration-300">
+              <Card key={index} className="border-l-4 border-brand-blue hover:shadow-lg transition-shadow duration-300">
                 <CardContent className="p-6">
                   <div className="flex items-start space-x-4">
-                    <div className="w-12 h-12 bg-senegal-green/10 rounded-lg flex items-center justify-center">
-                      <value.icon className="w-6 h-6 text-senegal-green" />
+                    <div className="w-12 h-12 bg-brand-blue/10 rounded-lg flex items-center justify-center">
+                      <value.icon className="w-6 h-6 text-brand-blue" />
                     </div>
                     <div>
                       <h4 className="font-semibold text-gray-900 mb-2">{value.title}</h4>
@@ -133,7 +133,7 @@ const About = () => {
                     className="w-24 h-24 rounded-full mx-auto mb-4 object-cover"
                   />
                   <h4 className="font-semibold text-gray-900 mb-1">{member.name}</h4>
-                  <p className="text-senegal-green font-medium mb-2">{member.role}</p>
+                  <p className="text-brand-blue font-medium mb-2">{member.role}</p>
                   <p className="text-sm text-gray-600">{member.description}</p>
                 </CardContent>
               </Card>

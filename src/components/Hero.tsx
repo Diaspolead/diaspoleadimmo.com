@@ -27,8 +27,8 @@ const Hero = () => {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* Left content */}
           <div className="text-white animate-fade-in">
-            <div className="inline-flex items-center px-4 py-2 bg-senegal-green/20 rounded-full mb-6">
-              <span className="text-senegal-yellow font-medium">🇸🇳 Expertise Sénégalaise</span>
+            <div className="inline-flex items-center px-4 py-2 bg-brand-blue/20 rounded-full mb-6">
+              <span className="text-brand-violet-light font-medium">🇸🇳 Expertise Sénégalaise</span>
             </div>
             
             <h1 className="text-4xl md:text-6xl font-bold leading-tight mb-6">
@@ -45,7 +45,7 @@ const Hero = () => {
             <div className="flex flex-col sm:flex-row gap-4 mb-12">
               <Button 
                 size="lg" 
-                className="bg-senegal-green hover:bg-senegal-green/90 text-white font-semibold px-8 py-3"
+                className="bg-brand-blue hover:bg-brand-blue-dark text-white font-semibold px-8 py-3"
               >
                 Démarrer Votre Projet
                 <ArrowRight className="ml-2 w-5 h-5" />
@@ -63,7 +63,7 @@ const Hero = () => {
             <div className="grid grid-cols-3 gap-6">
               {stats.map((stat, index) => (
                 <div key={index} className="text-center">
-                  <stat.icon className="w-8 h-8 text-senegal-yellow mx-auto mb-2" />
+                  <stat.icon className="w-8 h-8 text-brand-violet-light mx-auto mb-2" />
                   <div className="text-2xl font-bold text-white">{stat.value}</div>
                   <div className="text-sm text-gray-400">{stat.label}</div>
                 </div>
@@ -75,7 +75,7 @@ const Hero = () => {
           <div className="space-y-6 animate-fade-in">
             <Card className="p-6 bg-white/95 backdrop-blur-sm">
               <div className="flex items-start space-x-4">
-                <div className="w-12 h-12 bg-senegal-green rounded-lg flex items-center justify-center">
+                <div className="w-12 h-12 bg-brand-blue rounded-lg flex items-center justify-center">
                   <MapPin className="w-6 h-6 text-white" />
                 </div>
                 <div>
@@ -87,7 +87,7 @@ const Hero = () => {
 
             <Card className="p-6 bg-white/95 backdrop-blur-sm">
               <div className="flex items-start space-x-4">
-                <div className="w-12 h-12 bg-senegal-gold rounded-lg flex items-center justify-center">
+                <div className="w-12 h-12 bg-brand-violet rounded-lg flex items-center justify-center">
                   <Users className="w-6 h-6 text-white" />
                 </div>
                 <div>
@@ -99,7 +99,7 @@ const Hero = () => {
 
             <Card className="p-6 bg-white/95 backdrop-blur-sm">
               <div className="flex items-start space-x-4">
-                <div className="w-12 h-12 bg-senegal-red rounded-lg flex items-center justify-center">
+                <div className="w-12 h-12 bg-brand-purple rounded-lg flex items-center justify-center">
                   <Star className="w-6 h-6 text-white" />
                 </div>
                 <div>

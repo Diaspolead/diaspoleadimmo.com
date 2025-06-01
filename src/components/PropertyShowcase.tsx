@@ -94,7 +94,7 @@ const PropertyShowcase = () => {
                 </div>
                 {property.roi && (
                   <div className="absolute top-4 right-4">
-                    <Badge className="bg-senegal-green text-white flex items-center space-x-1">
+                    <Badge className="bg-brand-blue text-white flex items-center space-x-1">
                       <TrendingUp className="w-3 h-3" />
                       <span>{property.roi}</span>
                     </Badge>
@@ -111,7 +111,7 @@ const PropertyShowcase = () => {
                     <MapPin className="w-4 h-4 mr-1" />
                     <span className="text-sm">{property.location}</span>
                   </div>
-                  <div className="text-2xl font-bold text-senegal-green">
+                  <div className="text-2xl font-bold text-brand-blue">
                     {property.price}
                   </div>
                 </div>
@@ -162,10 +162,10 @@ const PropertyShowcase = () => {
               l'acquisition d'un terrain, nous vous accompagnons dans toutes vos démarches.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <button className="bg-senegal-green text-white font-semibold px-8 py-3 rounded-lg hover:bg-senegal-green/90 transition-colors duration-200">
+              <button className="bg-brand-blue text-white font-semibold px-8 py-3 rounded-lg hover:bg-brand-blue-dark transition-colors duration-200">
                 Voir Toutes Nos Offres
               </button>
-              <button className="border border-senegal-green text-senegal-green font-semibold px-8 py-3 rounded-lg hover:bg-senegal-green hover:text-white transition-colors duration-200">
+              <button className="border border-brand-blue text-brand-blue font-semibold px-8 py-3 rounded-lg hover:bg-brand-blue hover:text-white transition-colors duration-200">
                 Estimer Mon Projet
               </button>
             </div>

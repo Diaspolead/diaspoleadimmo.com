@@ -10,42 +10,42 @@ const Services = () => {
       title: 'Recherche & Sélection',
       description: 'Identification des meilleures opportunités selon vos critères et budget',
       features: ['Analyse de marché', 'Visites virtuelles', 'Rapports détaillés'],
-      color: 'bg-senegal-green'
+      color: 'bg-brand-blue'
     },
     {
       icon: FileText,
       title: 'Accompagnement Juridique',
       description: 'Gestion complète des aspects légaux et administratifs',
       features: ['Vérification titres', 'Négociation contrats', 'Suivi notarial'],
-      color: 'bg-senegal-gold'
+      color: 'bg-brand-violet'
     },
     {
       icon: TrendingUp,
       title: 'Conseil en Investissement',
       description: 'Stratégies d\'investissement adaptées au marché sénégalais',
       features: ['Analyse rentabilité', 'Projections fiscales', 'Optimisation portfolio'],
-      color: 'bg-senegal-red'
+      color: 'bg-brand-purple'
     },
     {
       icon: Building2,
       title: 'Gestion de Patrimoine',
       description: 'Administration et valorisation de vos biens immobiliers',
       features: ['Gestion locative', 'Maintenance', 'Optimisation revenus'],
-      color: 'bg-senegal-green'
+      color: 'bg-brand-blue'
     },
     {
       icon: Key,
       title: 'Clés en Main',
       description: 'Service complet pour propriétaires à distance',
       features: ['Aménagement', 'Ameublement', 'Mise en location'],
-      color: 'bg-senegal-gold'
+      color: 'bg-brand-violet'
     },
     {
       icon: Shield,
       title: 'Sécurisation',
       description: 'Protection et assurance de vos investissements',
       features: ['Due diligence', 'Assurances', 'Suivi post-achat'],
-      color: 'bg-senegal-red'
+      color: 'bg-brand-purple'
     }
   ];
 
@@ -82,7 +82,7 @@ const Services = () => {
                 <ul className="space-y-2">
                   {service.features.map((feature, idx) => (
                     <li key={idx} className="flex items-center text-sm text-gray-700">
-                      <div className="w-2 h-2 bg-senegal-green rounded-full mr-3"></div>
+                      <div className="w-2 h-2 bg-brand-blue rounded-full mr-3"></div>
                       {feature}
                     </li>
                   ))}
@@ -94,14 +94,14 @@ const Services = () => {
 
         {/* CTA Section */}
         <div className="mt-16 text-center">
-          <div className="bg-gradient-to-r from-senegal-green to-senegal-gold p-8 rounded-2xl text-white">
+          <div className="gradient-blue-violet p-8 rounded-2xl text-white">
             <h3 className="text-2xl font-bold mb-4">
               Prêt à Concrétiser Votre Projet ?
             </h3>
             <p className="text-lg mb-6 opacity-90">
               Bénéficiez d'une consultation gratuite avec nos experts
             </p>
-            <button className="bg-white text-senegal-green font-semibold px-8 py-3 rounded-lg hover:bg-gray-100 transition-colors duration-200">
+            <button className="bg-white text-brand-blue font-semibold px-8 py-3 rounded-lg hover:bg-gray-100 transition-colors duration-200">
               Réserver Ma Consultation
             </button>
           </div>

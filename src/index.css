@@ -14,7 +14,7 @@
     --popover: 0 0% 100%;
     --popover-foreground: 222.2 84% 4.9%;
 
-    --primary: 137 100% 26%;
+    --primary: 213 94% 68%;
     --primary-foreground: 0 0% 98%;
 
     --secondary: 210 40% 96.1%;
@@ -23,15 +23,15 @@
     --muted: 210 40% 96.1%;
     --muted-foreground: 215.4 16.3% 46.9%;
 
-    --accent: 45 93% 47%;
-    --accent-foreground: 0 0% 0%;
+    --accent: 262 83% 58%;
+    --accent-foreground: 0 0% 98%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
 
     --border: 214.3 31.8% 91.4%;
     --input: 214.3 31.8% 91.4%;
-    --ring: 137 100% 26%;
+    --ring: 213 94% 68%;
 
     --radius: 0.5rem;
 
@@ -55,7 +55,7 @@
     --popover: 222.2 84% 4.9%;
     --popover-foreground: 210 40% 98%;
 
-    --primary: 137 100% 26%;
+    --primary: 213 94% 68%;
     --primary-foreground: 210 40% 98%;
 
     --secondary: 217.2 32.6% 17.5%;
@@ -64,7 +64,7 @@
     --muted: 217.2 32.6% 17.5%;
     --muted-foreground: 215 20.2% 65.1%;
 
-    --accent: 45 93% 47%;
+    --accent: 262 83% 58%;
     --accent-foreground: 210 40% 98%;
 
     --destructive: 0 62.8% 30.6%;
@@ -96,15 +96,15 @@
 }
 
 @layer components {
-  .gradient-senegal {
-    background: linear-gradient(135deg, #00853D 0%, #FDD835 50%, #E53E3E 100%);
+  .gradient-brand {
+    background: linear-gradient(135deg, #2563eb 0%, #7c3aed 50%, #9333ea 100%);
   }
   
-  .gradient-gold {
-    background: linear-gradient(135deg, #D4AF37 0%, #FFD700 100%);
+  .gradient-blue-violet {
+    background: linear-gradient(135deg, #3b82f6 0%, #8b5cf6 100%);
   }
   
   .text-gradient {
-    @apply bg-gradient-to-r from-senegal-green to-senegal-gold bg-clip-text text-transparent;
+    @apply bg-gradient-to-r from-brand-blue to-brand-violet bg-clip-text text-transparent;
   }
 }
