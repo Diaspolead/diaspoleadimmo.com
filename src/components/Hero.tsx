@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { ArrowRight, MapPin, Star, Users } from 'lucide-react';
 import { Button } from '@/components/ui/button';
@@ -16,7 +15,7 @@ const Hero = () => {
       {/* Background with overlay */}
       <div className="absolute inset-0 z-0">
         <img
-          src="/lovable-uploads/6d2062d2-ad52-4768-876e-682dd38988d9.png"
+          src="/lovable-uploads/65b6f083-cee7-482b-a717-d4f4a1ed6be7.png"
           alt="Villa moderne au Sénégal"
           className="w-full h-full object-cover"
         />
