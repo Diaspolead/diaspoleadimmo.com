@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { ArrowRight, MapPin, Star, Users } from 'lucide-react';
 import { Button } from '@/components/ui/button';
@@ -70,45 +71,43 @@ const Hero = () => {
             </div>
           </div>
 
-          {/* Right content - Trust indicators positioned at extreme right */}
-          <div className="lg:relative">
-            <div className="lg:absolute lg:right-0 lg:top-0 space-y-6 animate-fade-in max-w-sm ml-auto">
-              <Card className="p-6 bg-white/95 backdrop-blur-sm">
-                <div className="flex items-start space-x-4">
-                  <div className="w-12 h-12 bg-brand-blue rounded-lg flex items-center justify-center">
-                    <MapPin className="w-6 h-6 text-white" />
-                  </div>
-                  <div>
-                    <h3 className="font-semibold text-gray-900 mb-2">Présence Locale</h3>
-                    <p className="text-gray-600">Bureau permanent à Dakar avec équipe locale expérimentée</p>
-                  </div>
+          {/* Right content - Trust indicators */}
+          <div className="space-y-6 animate-fade-in">
+            <Card className="p-6 bg-white/95 backdrop-blur-sm">
+              <div className="flex items-start space-x-4">
+                <div className="w-12 h-12 bg-brand-blue rounded-lg flex items-center justify-center">
+                  <MapPin className="w-6 h-6 text-white" />
                 </div>
-              </Card>
+                <div>
+                  <h3 className="font-semibold text-gray-900 mb-2">Présence Locale</h3>
+                  <p className="text-gray-600">Bureau permanent à Dakar avec équipe locale expérimentée</p>
+                </div>
+              </div>
+            </Card>
 
-              <Card className="p-6 bg-white/95 backdrop-blur-sm">
-                <div className="flex items-start space-x-4">
-                  <div className="w-12 h-12 bg-brand-violet rounded-lg flex items-center justify-center">
-                    <Users className="w-6 h-6 text-white" />
-                  </div>
-                  <div>
-                    <h3 className="font-semibold text-gray-900 mb-2">Expertise Diaspora</h3>
-                    <p className="text-gray-600">Compréhension unique des besoins de la diaspora sénégalaise</p>
-                  </div>
+            <Card className="p-6 bg-white/95 backdrop-blur-sm">
+              <div className="flex items-start space-x-4">
+                <div className="w-12 h-12 bg-brand-violet rounded-lg flex items-center justify-center">
+                  <Users className="w-6 h-6 text-white" />
                 </div>
-              </Card>
+                <div>
+                  <h3 className="font-semibold text-gray-900 mb-2">Expertise Diaspora</h3>
+                  <p className="text-gray-600">Compréhension unique des besoins de la diaspora sénégalaise</p>
+                </div>
+              </div>
+            </Card>
 
-              <Card className="p-6 bg-white/95 backdrop-blur-sm">
-                <div className="flex items-start space-x-4">
-                  <div className="w-12 h-12 bg-brand-purple rounded-lg flex items-center justify-center">
-                    <Star className="w-6 h-6 text-white" />
-                  </div>
-                  <div>
-                    <h3 className="font-semibold text-gray-900 mb-2">Service Premium</h3>
-                    <p className="text-gray-600">Accompagnement personnalisé de A à Z pour chaque client</p>
-                  </div>
+            <Card className="p-6 bg-white/95 backdrop-blur-sm">
+              <div className="flex items-start space-x-4">
+                <div className="w-12 h-12 bg-brand-purple rounded-lg flex items-center justify-center">
+                  <Star className="w-6 h-6 text-white" />
                 </div>
-              </Card>
-            </div>
+                <div>
+                  <h3 className="font-semibold text-gray-900 mb-2">Service Premium</h3>
+                  <p className="text-gray-600">Accompagnement personnalisé de A à Z pour chaque client</p>
+                </div>
+              </div>
+            </Card>
           </div>
         </div>
       </div>
