@@ -26,7 +26,7 @@ const Header = () => {
           {/* Logo */}
           <div className="flex items-center">
             <img 
-              src="/lovable-uploads/05d3697c-cef5-4025-a78e-0280d50d89d7.png"
+              src="/lovable-uploads/288bdba1-9701-4d49-9111-44c9bd6bfbae.png"
               alt="DiaspoLead Immo"
               className="h-24 w-auto"
             />
