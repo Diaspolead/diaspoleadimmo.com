@@ -21,13 +21,13 @@ const Header = () => {
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-sm border-b border-gray-200">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between items-center h-20">
+        <div className="flex justify-between items-center h-24">
           {/* Logo */}
           <div className="flex items-center">
             <img 
-              src="/lovable-uploads/e53d7027-4000-41d9-87ac-948e84daf446.png"
+              src="/lovable-uploads/a4b27fcb-eb8e-40d8-bdd9-2e2b2b29302a.png"
               alt="DiaspoLead Immo"
-              className="h-16 w-auto"
+              className="h-20 w-auto"
             />
           </div>
 
