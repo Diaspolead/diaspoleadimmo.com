@@ -71,9 +71,9 @@ const Hero = () => {
             </div>
           </div>
 
-          {/* Right content - Trust indicators moved to far right */}
-          <div className="flex justify-end">
-            <div className="space-y-6 animate-fade-in max-w-sm">
+          {/* Right content - Trust indicators positioned at extreme right */}
+          <div className="lg:relative">
+            <div className="lg:absolute lg:right-0 lg:top-0 space-y-6 animate-fade-in max-w-sm ml-auto">
               <Card className="p-6 bg-white/95 backdrop-blur-sm">
                 <div className="flex items-start space-x-4">
                   <div className="w-12 h-12 bg-brand-blue rounded-lg flex items-center justify-center">
