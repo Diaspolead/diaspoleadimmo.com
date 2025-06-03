@@ -1,6 +1,6 @@
 
 import React, { useState } from 'react';
-import { Menu, X, Home, Users, Building, Phone, Globe } from 'lucide-react';
+import { Menu, X, Home, Users, Building, Phone, Globe, HelpCircle } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 
 const Header = () => {
@@ -8,8 +8,9 @@ const Header = () => {
   const [language, setLanguage] = useState('fr');
 
   const navigation = [
-    { name: 'Accueil', href: '#home', icon: Home },
+    { name: 'Accueil', href: '/', icon: Home },
     { name: 'Services', href: '#services', icon: Building },
+    { name: 'Comment ça marche', href: '/comment-ca-marche', icon: HelpCircle },
     { name: 'À Propos', href: '#about', icon: Users },
     { name: 'Contact', href: '#contact', icon: Phone },
   ];
