@@ -36,7 +36,7 @@ const Services = () => {
       features: ['Gestion de chantier', 'Matériaux certifiés', 'Suivi qualité rigoureux'],
       details: 'Nous prenons en charge l\'intégralité de votre projet de construction, de la fondation à la remise des clés. Notre réseau d\'artisans qualifiés et notre système de contrôle qualité garantissent une construction aux normes internationales. Nous utilisons des matériaux adaptés au climat local et respectueux de l\'environnement.',
       color: 'bg-brand-blue',
-      image: '/lovable-uploads/06fc8a84-d210-479f-9634-d30232fdbb2e.png'
+      image: '/lovable-uploads/941ccb06-2c42-414c-8360-40ebb460a48d.png'
     },
     {
       icon: Key,
