@@ -36,7 +36,8 @@ const Services = () => {
       description: 'Réalisation clés en main avec matériaux de qualité',
       features: ['Gestion de chantier', 'Matériaux certifiés', 'Suivi qualité rigoureux'],
       details: 'Nous prenons en charge l\'intégralité de votre projet de construction, de la fondation à la remise des clés. Notre réseau d\'artisans qualifiés et notre système de contrôle qualité garantissent une construction aux normes internationales. Nous utilisons des matériaux adaptés au climat local et respectueux de l\'environnement.',
-      color: 'bg-brand-blue'
+      color: 'bg-brand-blue',
+      image: '/lovable-uploads/b581e41d-884c-48e4-be48-93b007f1da1e.png'
     },
     {
       icon: Key,
@@ -86,6 +87,15 @@ const Services = () => {
                 </CardDescription>
               </CardHeader>
               <CardContent>
+                {service.image && (
+                  <div className="mb-4">
+                    <img 
+                      src={service.image} 
+                      alt={service.title}
+                      className="w-full h-48 object-cover rounded-lg"
+                    />
+                  </div>
+                )}
                 <ul className="space-y-2">
                   {service.features.map((feature, idx) => (
                     <li key={idx} className="flex items-center text-sm text-gray-700">
