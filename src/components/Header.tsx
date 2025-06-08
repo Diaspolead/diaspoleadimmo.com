@@ -38,7 +38,7 @@ const Header = () => {
               <a
                 key={item.name}
                 href={item.href}
-                className="flex items-center space-x-2 text-gray-700 hover:text-brand-blue transition-colors duration-200"
+                className="flex items-center space-x-2 text-brand-blue hover:text-brand-blue-dark transition-colors duration-200"
               >
                 <item.icon className="w-4 h-4" />
                 <span>{item.name}</span>
@@ -83,7 +83,7 @@ const Header = () => {
                 <a
                   key={item.name}
                   href={item.href}
-                  className="flex items-center space-x-3 px-4 py-2 text-gray-700 hover:text-brand-blue hover:bg-gray-50 rounded-lg transition-colors duration-200"
+                  className="flex items-center space-x-3 px-4 py-2 text-brand-blue hover:text-brand-blue-dark hover:bg-gray-50 rounded-lg transition-colors duration-200"
                   onClick={() => setIsMenuOpen(false)}
                 >
                   <item.icon className="w-5 h-5" />
