@@ -1,7 +1,7 @@
+
 import React, { useState } from 'react';
 import { Building2, Search, FileText, PenTool, Construction, Key, Wrench } from 'lucide-react';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
-import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/components/ui/accordion';
 
 const Services = () => {
   const services = [
@@ -106,30 +106,6 @@ const Services = () => {
               </CardContent>
             </Card>
           ))}
-        </div>
-
-        {/* Detailed Services Accordion */}
-        <div className="bg-white rounded-2xl p-8 shadow-lg">
-          <h3 className="text-2xl font-bold text-gray-900 mb-6 text-center">
-            Détails de nos services
-          </h3>
-          <Accordion type="single" collapsible className="w-full">
-            {services.map((service, index) => (
-              <AccordionItem key={index} value={`item-${index}`}>
-                <AccordionTrigger className="text-left">
-                  <div className="flex items-center gap-4">
-                    <div className={`w-10 h-10 ${service.color} rounded-lg flex items-center justify-center`}>
-                      <service.icon className="w-5 h-5 text-white" />
-                    </div>
-                    <span className="font-semibold">{service.title}</span>
-                  </div>
-                </AccordionTrigger>
-                <AccordionContent className="pt-4 pl-14">
-                  <p className="text-gray-600 leading-relaxed">{service.details}</p>
-                </AccordionContent>
-              </AccordionItem>
-            ))}
-          </Accordion>
         </div>
 
         {/* CTA Section */}
