@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import { Building2, Search, FileText, PenTool, Construction, Key, Wrench } from 'lucide-react';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
@@ -37,7 +36,7 @@ const Services = () => {
       features: ['Gestion de chantier', 'Matériaux certifiés', 'Suivi qualité rigoureux'],
       details: 'Nous prenons en charge l\'intégralité de votre projet de construction, de la fondation à la remise des clés. Notre réseau d\'artisans qualifiés et notre système de contrôle qualité garantissent une construction aux normes internationales. Nous utilisons des matériaux adaptés au climat local et respectueux de l\'environnement.',
       color: 'bg-brand-blue',
-      image: '/lovable-uploads/b581e41d-884c-48e4-be48-93b007f1da1e.png'
+      image: '/lovable-uploads/06fc8a84-d210-479f-9634-d30232fdbb2e.png'
     },
     {
       icon: Key,
