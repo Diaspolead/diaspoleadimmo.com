@@ -19,6 +19,13 @@ const Header = () => {
     setLanguage(language === 'fr' ? 'en' : 'fr');
   };
 
+  const scrollToContact = () => {
+    const contactSection = document.getElementById('contact');
+    if (contactSection) {
+      contactSection.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-sm border-b border-gray-200">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -57,7 +64,10 @@ const Header = () => {
               <Globe className="w-4 h-4" />
               <span>{language.toUpperCase()}</span>
             </Button>
-            <Button className="bg-brand-blue hover:bg-brand-blue-dark">
+            <Button 
+              className="bg-brand-blue hover:bg-brand-blue-dark"
+              onClick={scrollToContact}
+            >
               Consultation Gratuite
             </Button>
           </div>
@@ -100,7 +110,10 @@ const Header = () => {
                   <Globe className="w-4 h-4" />
                   <span>{language.toUpperCase()}</span>
                 </Button>
-                <Button className="w-full bg-brand-blue hover:bg-brand-blue-dark">
+                <Button 
+                  className="w-full bg-brand-blue hover:bg-brand-blue-dark"
+                  onClick={scrollToContact}
+                >
                   Consultation Gratuite
                 </Button>
               </div>
