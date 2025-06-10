@@ -26,9 +26,6 @@ const Hero = () => {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* Left content */}
           <div className="text-white animate-fade-in">
-            <div className="inline-flex items-center px-4 py-2 bg-brand-blue/20 rounded-full mb-6">
-              <span className="text-brand-violet-light font-medium">🇸🇳 Expertise Sénégalaise</span>
-            </div>
             
             <h1 className="text-4xl md:text-6xl font-bold leading-tight mb-6">
               Votre Partenaire pour tous vos
