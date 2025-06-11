@@ -5,12 +5,6 @@ import { Button } from '@/components/ui/button';
 import { Card } from '@/components/ui/card';
 
 const Hero = () => {
-  const stats = [
-    { icon: Users, value: '500+', label: 'Clients Satisfaits' },
-    { icon: Star, value: '4.9/5', label: 'Note Moyenne' },
-    { icon: MapPin, value: '15+', label: 'Villes Couvertes' },
-  ];
-
   return (
     <section id="home" className="relative min-h-screen flex items-center justify-center overflow-hidden">
       {/* Background with overlay */}
@@ -54,17 +48,6 @@ const Hero = () => {
               >
                 Nos Réalisations
               </Button>
-            </div>
-
-            {/* Stats */}
-            <div className="grid grid-cols-3 gap-6">
-              {stats.map((stat, index) => (
-                <div key={index} className="text-center">
-                  <stat.icon className="w-8 h-8 text-brand-violet-light mx-auto mb-2" />
-                  <div className="text-2xl font-bold text-white">{stat.value}</div>
-                  <div className="text-sm text-gray-400">{stat.label}</div>
-                </div>
-              ))}
             </div>
           </div>
 
