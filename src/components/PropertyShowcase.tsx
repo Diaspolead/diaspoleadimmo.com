@@ -15,7 +15,7 @@ const PropertyShowcase = () => {
       bathrooms: null,
       area: 450,
       type: 'Immeuble',
-      status: 'Vendu',
+      status: 'Réservé',
       image: '/lovable-uploads/d1535e04-a215-482c-b941-7b48d44c6e68.png',
       roi: '9.2%'
     },
@@ -28,7 +28,7 @@ const PropertyShowcase = () => {
       bathrooms: 4,
       area: 320,
       type: 'Villa',
-      status: 'Disponible',
+      status: 'Réservé',
       image: '/lovable-uploads/61c96c09-019a-49ae-9388-804df8767e7f.png',
       roi: '8.5%'
     },
@@ -54,7 +54,7 @@ const PropertyShowcase = () => {
       bathrooms: 3,
       area: 280,
       type: 'Villa',
-      status: 'Disponible',
+      status: 'Réservé',
       image: '/lovable-uploads/8995c1ed-f6bd-4cb9-8b8f-b028309a8b3a.png',
       roi: '8.1%'
     }
@@ -123,9 +123,6 @@ const PropertyShowcase = () => {
                   <div className="flex items-center text-gray-600 mb-3">
                     <MapPin className="w-4 h-4 mr-1" />
                     <span className="text-sm">{property.location}</span>
-                  </div>
-                  <div className="text-2xl font-bold text-brand-blue">
-                    {property.price}
                   </div>
                 </div>
 
