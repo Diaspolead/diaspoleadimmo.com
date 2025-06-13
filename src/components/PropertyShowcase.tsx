@@ -1,10 +1,13 @@
 
-import React from 'react';
+import React, { useState } from 'react';
 import { MapPin, Bed, Bath, Square } from 'lucide-react';
 import { Card, CardContent } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
+import { Dialog, DialogContent, DialogTrigger } from '@/components/ui/dialog';
 
 const PropertyShowcase = () => {
+  const [selectedImage, setSelectedImage] = useState<string | null>(null);
+
   const properties = [
     {
       id: 1,
@@ -67,11 +70,22 @@ const PropertyShowcase = () => {
           {properties.map((property) => (
             <Card key={property.id} className="group overflow-hidden hover:shadow-xl transition-all duration-300 hover:-translate-y-2">
               <div className="relative">
-                <img
-                  src={property.image}
-                  alt={property.title}
-                  className="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300"
-                />
+                <Dialog>
+                  <DialogTrigger asChild>
+                    <img
+                      src={property.image}
+                      alt={property.title}
+                      className="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300 cursor-pointer"
+                    />
+                  </DialogTrigger>
+                  <DialogContent className="max-w-4xl w-full max-h-[90vh] p-0">
+                    <img
+                      src={property.image}
+                      alt={property.title}
+                      className="w-full h-auto object-contain"
+                    />
+                  </DialogContent>
+                </Dialog>
                 <div className="absolute top-4 left-4 flex space-x-2">
                   <Badge variant="secondary" className="bg-white/90 text-gray-900">
                     {property.type}
