@@ -12,7 +12,7 @@ const PropertyShowcase = () => {
     {
       id: 1,
       title: 'Immeuble Moderne R+4',
-      location: 'Dakar, Sénégal',
+      location: 'Dakar',
       bedrooms: null,
       bathrooms: null,
       area: 450,
@@ -22,7 +22,7 @@ const PropertyShowcase = () => {
     {
       id: 2,
       title: 'Villa de Luxe avec Balcons',
-      location: 'Almadies, Dakar',
+      location: 'Dakar',
       bedrooms: 6,
       bathrooms: 4,
       area: 320,
@@ -32,7 +32,7 @@ const PropertyShowcase = () => {
     {
       id: 3,
       title: 'Résidence Moderne en Construction',
-      location: 'Plateau, Dakar',
+      location: 'Dakar',
       bedrooms: 4,
       bathrooms: 3,
       area: 180,
@@ -42,7 +42,7 @@ const PropertyShowcase = () => {
     {
       id: 4,
       title: 'Villa Contemporaine',
-      location: 'Saly, Mbour',
+      location: 'Dakar',
       bedrooms: 5,
       bathrooms: 3,
       area: 280,
