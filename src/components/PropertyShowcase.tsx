@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { MapPin, Bed, Bath, Square, TrendingUp } from 'lucide-react';
+import { MapPin, Bed, Bath, Square } from 'lucide-react';
 import { Card, CardContent } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 
@@ -10,68 +10,43 @@ const PropertyShowcase = () => {
       id: 1,
       title: 'Immeuble Moderne R+4',
       location: 'Dakar, Sénégal',
-      price: '350M FCFA',
       bedrooms: null,
       bathrooms: null,
       area: 450,
       type: 'Immeuble',
-      status: 'Réservé',
-      image: '/lovable-uploads/d1535e04-a215-482c-b941-7b48d44c6e68.png',
-      roi: '9.2%'
+      image: '/lovable-uploads/d1535e04-a215-482c-b941-7b48d44c6e68.png'
     },
     {
       id: 2,
       title: 'Villa de Luxe avec Balcons',
       location: 'Almadies, Dakar',
-      price: '280M FCFA',
       bedrooms: 6,
       bathrooms: 4,
       area: 320,
       type: 'Villa',
-      status: 'Réservé',
-      image: '/lovable-uploads/61c96c09-019a-49ae-9388-804df8767e7f.png',
-      roi: '8.5%'
+      image: '/lovable-uploads/61c96c09-019a-49ae-9388-804df8767e7f.png'
     },
     {
       id: 3,
       title: 'Résidence Moderne en Construction',
       location: 'Plateau, Dakar',
-      price: '195M FCFA',
       bedrooms: 4,
       bathrooms: 3,
       area: 180,
       type: 'Résidence',
-      status: 'Réservé',
-      image: '/lovable-uploads/f74e2db8-3e4f-456e-93eb-ef3ca45d237e.png',
-      roi: '7.8%'
+      image: '/lovable-uploads/f74e2db8-3e4f-456e-93eb-ef3ca45d237e.png'
     },
     {
       id: 4,
       title: 'Villa Contemporaine',
       location: 'Saly, Mbour',
-      price: '220M FCFA',
       bedrooms: 5,
       bathrooms: 3,
       area: 280,
       type: 'Villa',
-      status: 'Réservé',
-      image: '/lovable-uploads/8995c1ed-f6bd-4cb9-8b8f-b028309a8b3a.png',
-      roi: '8.1%'
+      image: '/lovable-uploads/8995c1ed-f6bd-4cb9-8b8f-b028309a8b3a.png'
     }
   ];
-
-  const getStatusColor = (status: string) => {
-    switch (status) {
-      case 'Disponible':
-        return 'bg-green-500';
-      case 'Vendu':
-        return 'bg-red-500';
-      case 'Réservé':
-        return 'bg-yellow-500';
-      default:
-        return 'bg-gray-500';
-    }
-  };
 
   return (
     <section className="py-20 bg-white">
@@ -98,21 +73,10 @@ const PropertyShowcase = () => {
                   className="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300"
                 />
                 <div className="absolute top-4 left-4 flex space-x-2">
-                  <Badge className={`${getStatusColor(property.status)} text-white`}>
-                    {property.status}
-                  </Badge>
                   <Badge variant="secondary" className="bg-white/90 text-gray-900">
                     {property.type}
                   </Badge>
                 </div>
-                {property.roi && (
-                  <div className="absolute top-4 right-4">
-                    <Badge className="bg-brand-blue text-white flex items-center space-x-1">
-                      <TrendingUp className="w-3 h-3" />
-                      <span>{property.roi}</span>
-                    </Badge>
-                  </div>
-                )}
               </div>
 
               <CardContent className="p-6">
