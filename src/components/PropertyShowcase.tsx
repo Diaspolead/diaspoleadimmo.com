@@ -8,42 +8,55 @@ const PropertyShowcase = () => {
   const properties = [
     {
       id: 1,
-      title: 'Villa Moderne Almadies',
-      location: 'Almadies, Dakar',
-      price: '180M FCFA',
-      bedrooms: 4,
-      bathrooms: 3,
-      area: 250,
-      type: 'Villa',
-      status: 'Disponible',
-      image: 'https://images.unsplash.com/photo-1721322800607-8c38375eef04?auto=format&fit=crop&w=800&q=80',
-      roi: '8.5%'
+      title: 'Immeuble Moderne R+4',
+      location: 'Dakar, Sénégal',
+      price: '350M FCFA',
+      bedrooms: null,
+      bathrooms: null,
+      area: 450,
+      type: 'Immeuble',
+      status: 'Vendu',
+      image: '/lovable-uploads/d1535e04-a215-482c-b941-7b48d44c6e68.png',
+      roi: '9.2%'
     },
     {
       id: 2,
-      title: 'Appartement de Luxe',
-      location: 'Plateau, Dakar',
-      price: '95M FCFA',
-      bedrooms: 3,
-      bathrooms: 2,
-      area: 120,
-      type: 'Appartement',
-      status: 'Vendu',
-      image: 'https://images.unsplash.com/photo-1487958449943-2429e8be8625?auto=format&fit=crop&w=800&q=80',
-      roi: '7.2%'
+      title: 'Villa de Luxe avec Balcons',
+      location: 'Almadies, Dakar',
+      price: '280M FCFA',
+      bedrooms: 6,
+      bathrooms: 4,
+      area: 320,
+      type: 'Villa',
+      status: 'Disponible',
+      image: '/lovable-uploads/61c96c09-019a-49ae-9388-804df8767e7f.png',
+      roi: '8.5%'
     },
     {
       id: 3,
-      title: 'Terrain Constructible',
-      location: 'Saly, Mbour',
-      price: '45M FCFA',
-      bedrooms: null,
-      bathrooms: null,
-      area: 800,
-      type: 'Terrain',
+      title: 'Résidence Moderne en Construction',
+      location: 'Plateau, Dakar',
+      price: '195M FCFA',
+      bedrooms: 4,
+      bathrooms: 3,
+      area: 180,
+      type: 'Résidence',
       status: 'Réservé',
-      image: 'https://images.unsplash.com/photo-1492321936769-b49830bc1d1e?auto=format&fit=crop&w=800&q=80',
-      roi: '12%'
+      image: '/lovable-uploads/f74e2db8-3e4f-456e-93eb-ef3ca45d237e.png',
+      roi: '7.8%'
+    },
+    {
+      id: 4,
+      title: 'Villa Contemporaine',
+      location: 'Saly, Mbour',
+      price: '220M FCFA',
+      bedrooms: 5,
+      bathrooms: 3,
+      area: 280,
+      type: 'Villa',
+      status: 'Disponible',
+      image: '/lovable-uploads/8995c1ed-f6bd-4cb9-8b8f-b028309a8b3a.png',
+      roi: '8.1%'
     }
   ];
 
@@ -75,7 +88,7 @@ const PropertyShowcase = () => {
         </div>
 
         {/* Properties Grid */}
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid md:grid-cols-2 lg:grid-cols-2 gap-8">
           {properties.map((property) => (
             <Card key={property.id} className="group overflow-hidden hover:shadow-xl transition-all duration-300 hover:-translate-y-2">
               <div className="relative">
