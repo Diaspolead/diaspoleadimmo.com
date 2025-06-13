@@ -1,6 +1,6 @@
 
 import React, { useState } from 'react';
-import { MapPin, Bed, Bath, Square } from 'lucide-react';
+import { MapPin } from 'lucide-react';
 import { Card, CardContent } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { Dialog, DialogContent, DialogTrigger } from '@/components/ui/dialog';
@@ -13,9 +13,6 @@ const PropertyShowcase = () => {
       id: 1,
       title: 'Immeuble Moderne R+4',
       location: 'Dakar',
-      bedrooms: null,
-      bathrooms: null,
-      area: 450,
       type: 'Immeuble',
       image: '/lovable-uploads/d1535e04-a215-482c-b941-7b48d44c6e68.png'
     },
@@ -23,9 +20,6 @@ const PropertyShowcase = () => {
       id: 2,
       title: 'Villa de Luxe avec Balcons',
       location: 'Dakar',
-      bedrooms: 6,
-      bathrooms: 4,
-      area: 320,
       type: 'Villa',
       image: '/lovable-uploads/61c96c09-019a-49ae-9388-804df8767e7f.png'
     },
@@ -33,9 +27,6 @@ const PropertyShowcase = () => {
       id: 3,
       title: 'Résidence Moderne en Construction',
       location: 'Dakar',
-      bedrooms: 4,
-      bathrooms: 3,
-      area: 180,
       type: 'Résidence',
       image: '/lovable-uploads/f74e2db8-3e4f-456e-93eb-ef3ca45d237e.png'
     },
@@ -43,9 +34,6 @@ const PropertyShowcase = () => {
       id: 4,
       title: 'Villa Contemporaine',
       location: 'Dakar',
-      bedrooms: 5,
-      bathrooms: 3,
-      area: 280,
       type: 'Villa',
       image: '/lovable-uploads/8995c1ed-f6bd-4cb9-8b8f-b028309a8b3a.png'
     }
@@ -98,40 +86,9 @@ const PropertyShowcase = () => {
                   <h3 className="text-xl font-semibold text-gray-900 mb-2">
                     {property.title}
                   </h3>
-                  <div className="flex items-center text-gray-600 mb-3">
+                  <div className="flex items-center text-gray-600">
                     <MapPin className="w-4 h-4 mr-1" />
                     <span className="text-sm">{property.location}</span>
-                  </div>
-                </div>
-
-                {/* Property Details */}
-                <div className="grid grid-cols-3 gap-4 pt-4 border-t border-gray-200">
-                  {property.bedrooms && (
-                    <div className="text-center">
-                      <div className="flex items-center justify-center mb-1">
-                        <Bed className="w-4 h-4 text-gray-500" />
-                      </div>
-                      <div className="text-sm font-semibold text-gray-900">{property.bedrooms}</div>
-                      <div className="text-xs text-gray-500">Chambres</div>
-                    </div>
-                  )}
-                  
-                  {property.bathrooms && (
-                    <div className="text-center">
-                      <div className="flex items-center justify-center mb-1">
-                        <Bath className="w-4 h-4 text-gray-500" />
-                      </div>
-                      <div className="text-sm font-semibold text-gray-900">{property.bathrooms}</div>
-                      <div className="text-xs text-gray-500">SDB</div>
-                    </div>
-                  )}
-                  
-                  <div className="text-center">
-                    <div className="flex items-center justify-center mb-1">
-                      <Square className="w-4 h-4 text-gray-500" />
-                    </div>
-                    <div className="text-sm font-semibold text-gray-900">{property.area}</div>
-                    <div className="text-xs text-gray-500">m²</div>
                   </div>
                 </div>
               </CardContent>
