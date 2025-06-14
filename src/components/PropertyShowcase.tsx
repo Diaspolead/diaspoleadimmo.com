@@ -106,10 +106,7 @@ const PropertyShowcase = () => {
               Que ce soit pour une résidence principale, un investissement locatif ou 
               l'acquisition d'un terrain, nous vous accompagnons dans toutes vos démarches.
             </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <button className="bg-brand-blue text-white font-semibold px-8 py-3 rounded-lg hover:bg-brand-blue-dark transition-colors duration-200">
-                Voir Toutes Nos Offres
-              </button>
+            <div className="flex justify-center">
               <button className="border border-brand-blue text-brand-blue font-semibold px-8 py-3 rounded-lg hover:bg-brand-blue hover:text-white transition-colors duration-200">
                 Estimer Mon Projet
               </button>
