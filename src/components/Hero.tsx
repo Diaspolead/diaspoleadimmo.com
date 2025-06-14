@@ -12,6 +12,13 @@ const Hero = () => {
     }
   };
 
+  const scrollToRealisations = () => {
+    const realisationsSection = document.querySelector('[data-section="realisations"]');
+    if (realisationsSection) {
+      realisationsSection.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
   return (
     <section id="home" className="relative min-h-screen flex items-center justify-center overflow-hidden">
       {/* Background with overlay */}
@@ -53,6 +60,7 @@ const Hero = () => {
                 variant="outline" 
                 size="lg"
                 className="bg-brand-violet hover:bg-brand-violet-dark text-white border-brand-violet hover:border-brand-violet-dark px-8 py-3"
+                onClick={scrollToRealisations}
               >
                 Nos Réalisations
               </Button>
