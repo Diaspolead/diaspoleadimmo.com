@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import { MapPin } from 'lucide-react';
 import { Card, CardContent } from '@/components/ui/card';
@@ -7,6 +6,13 @@ import { Dialog, DialogContent, DialogTrigger } from '@/components/ui/dialog';
 
 const PropertyShowcase = () => {
   const [selectedImage, setSelectedImage] = useState<string | null>(null);
+
+  const scrollToContact = () => {
+    const contactSection = document.getElementById('contact');
+    if (contactSection) {
+      contactSection.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
 
   const properties = [
     {
@@ -107,7 +113,10 @@ const PropertyShowcase = () => {
               l'acquisition d'un terrain, nous vous accompagnons dans toutes vos démarches.
             </p>
             <div className="flex justify-center">
-              <button className="border border-brand-blue text-brand-blue font-semibold px-8 py-3 rounded-lg hover:bg-brand-blue hover:text-white transition-colors duration-200">
+              <button 
+                onClick={scrollToContact}
+                className="border border-brand-blue text-brand-blue font-semibold px-8 py-3 rounded-lg hover:bg-brand-blue hover:text-white transition-colors duration-200"
+              >
                 Estimer Mon Projet
               </button>
             </div>
