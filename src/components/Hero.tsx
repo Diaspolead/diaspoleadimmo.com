@@ -1,9 +1,17 @@
+
 import React from 'react';
 import { ArrowRight, MapPin, Star, Users } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Card } from '@/components/ui/card';
 
 const Hero = () => {
+  const scrollToContact = () => {
+    const contactSection = document.getElementById('contact');
+    if (contactSection) {
+      contactSection.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
   return (
     <section id="home" className="relative min-h-screen flex items-center justify-center overflow-hidden">
       {/* Background with overlay */}
@@ -36,6 +44,7 @@ const Hero = () => {
               <Button 
                 size="lg" 
                 className="bg-brand-blue hover:bg-brand-blue-dark text-white font-semibold px-8 py-3"
+                onClick={scrollToContact}
               >
                 Démarrer Votre Projet
                 <ArrowRight className="ml-2 w-5 h-5" />
