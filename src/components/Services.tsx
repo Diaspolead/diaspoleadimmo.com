@@ -15,7 +15,7 @@ const Services = () => {
     },
     {
       icon: FileText,
-      title: 'Accompagnement Juridique',
+      title: 'Accompagnement Administrative',
       description: 'Gestion complète des aspects légaux et administratifs',
       features: ['Vérification des titres de propriété', 'Négociation de contrats', 'Suivi notarial complet'],
       details: 'Nous vous accompagnons dans toutes les démarches juridiques et administratives liées à votre acquisition. Notre équipe juridique vérifie la validité des titres, s\'assure de la conformité réglementaire et vous protège contre tous les risques juridiques. Nous gérons également les relations avec les notaires et les administrations.',
