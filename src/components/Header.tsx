@@ -32,11 +32,15 @@ const Header = () => {
         <div className="flex justify-between items-center h-20">
           {/* Logo */}
           <div className="flex items-center">
-            <img 
-              src="/lovable-uploads/288bdba1-9701-4d49-9111-44c9bd6bfbae.png"
-              alt="WOOR IMMO"
-              className="h-16 w-auto"
-            />
+            <div className="flex items-center space-x-3">
+              <div className="w-10 h-10 bg-brand-blue rounded-lg flex items-center justify-center">
+                <Building className="w-6 h-6 text-white" />
+              </div>
+              <div>
+                <h1 className="text-xl font-bold text-brand-blue">WOOR IMMO</h1>
+                <p className="text-xs text-gray-500">Conseil Immobilier</p>
+              </div>
+            </div>
           </div>
 
           {/* Desktop Navigation */}
