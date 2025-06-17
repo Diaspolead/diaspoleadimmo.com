@@ -43,7 +43,7 @@ const Footer = () => {
                 <Building className="w-6 h-6 text-white" />
               </div>
               <div>
-                <h3 className="text-xl font-bold">SenegalEstate</h3>
+                <h3 className="text-xl font-bold">WOOR IMMO</h3>
                 <p className="text-sm text-gray-400">Conseil Immobilier</p>
               </div>
             </div>
@@ -60,7 +60,7 @@ const Footer = () => {
               </div>
               <div className="flex items-center space-x-3 text-gray-300">
                 <Mail className="w-5 h-5 text-brand-blue" />
-                <span>contact@senegalestate.com</span>
+                <span>contact@woorimmo.com</span>
               </div>
               <div className="flex items-center space-x-3 text-gray-300">
                 <MapPin className="w-5 h-5 text-brand-blue" />
@@ -157,7 +157,7 @@ const Footer = () => {
         <div className="mt-12 pt-8 border-t border-gray-800">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             <div className="text-gray-400 text-sm">
-              © {currentYear} SenegalEstate. Tous droits réservés.
+              © {currentYear} WOOR IMMO. Tous droits réservés.
             </div>
             <div className="flex space-x-6 text-sm text-gray-400">
               <a href="#" className="hover:text-brand-blue transition-colors duration-200">
