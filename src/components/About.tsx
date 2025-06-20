@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Award, Globe, Heart, Target } from 'lucide-react';
 import { Card, CardContent } from '@/components/ui/card';
@@ -8,7 +7,7 @@ const About = () => {
     {
       icon: Heart,
       title: 'Proximité',
-      description: 'Nous comprenons les défis uniques de la diaspora sénégalaise'
+      description: 'Nous comprenons les défis uniques de la diaspora sénégalaise et des investisseurs internationaux'
     },
     {
       icon: Award,
