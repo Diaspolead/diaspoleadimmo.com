@@ -40,7 +40,7 @@ const About = () => {
             
             <div className="space-y-6 text-gray-700">
               <p className="text-lg leading-relaxed">
-                <strong>SenegalEstate</strong> est née de la vision de faciliter l'investissement 
+                <strong>WOOR IMMO</strong> est née de la vision de faciliter l'investissement 
                 immobilier au Sénégal pour la diaspora et les investisseurs internationaux. 
                 Nous comprenons les défis uniques auxquels vous faites face lorsque vous 
                 investissez à distance.

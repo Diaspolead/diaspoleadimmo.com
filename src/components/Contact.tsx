@@ -17,7 +17,7 @@ const Contact = () => {
     {
       icon: Mail,
       title: 'Email',
-      details: ['contact@senegalestate.com', 'conseil@senegalestate.com'],
+      details: ['contact@woorimmo.com', 'conseil@woorimmo.com'],
       color: 'bg-senegal-gold'
     },
     {
