@@ -59,23 +59,6 @@ const About = () => {
                 en réalité, en toute sécurité et transparence.
               </p>
             </div>
-
-            <div className="mt-8 flex items-center space-x-4">
-              <div className="text-center">
-                <div className="text-3xl font-bold text-brand-blue">10+</div>
-                <div className="text-sm text-gray-600">Années d'expérience</div>
-              </div>
-              <div className="w-px h-12 bg-gray-300"></div>
-              <div className="text-center">
-                <div className="text-3xl font-bold text-brand-violet">500M+</div>
-                <div className="text-sm text-gray-600">FCFA investis</div>
-              </div>
-              <div className="w-px h-12 bg-gray-300"></div>
-              <div className="text-center">
-                <div className="text-3xl font-bold text-brand-purple">98%</div>
-                <div className="text-sm text-gray-600">Clients satisfaits</div>
-              </div>
-            </div>
           </div>
 
           {/* Right content - Values */}
