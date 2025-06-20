@@ -38,7 +38,7 @@ const Header = () => {
               </div>
               <div>
                 <h1 className="text-xl font-bold text-brand-blue">WOOR IMMO</h1>
-                <p className="text-xs text-gray-500">Conseil Immobilier</p>
+                <p className="text-xs text-gray-500">La garantie de vos projets immobiliers au Sénégal</p>
               </div>
             </div>
           </div>
