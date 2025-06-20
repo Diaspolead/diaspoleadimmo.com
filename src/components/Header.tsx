@@ -1,11 +1,10 @@
 
 import React, { useState } from 'react';
-import { Menu, X, Home, Users, Building, Phone, Globe, HelpCircle } from 'lucide-react';
+import { Menu, X, Home, Users, Building, Phone, HelpCircle } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const [language, setLanguage] = useState('fr');
 
   const navigation = [
     { name: 'Accueil', href: '/', icon: Home },
@@ -14,10 +13,6 @@ const Header = () => {
     { name: 'À Propos', href: '/a-propos', icon: Users },
     { name: 'Contact', href: '/contact', icon: Phone },
   ];
-
-  const toggleLanguage = () => {
-    setLanguage(language === 'fr' ? 'en' : 'fr');
-  };
 
   const scrollToContact = () => {
     const contactSection = document.getElementById('contact');
@@ -57,17 +52,8 @@ const Header = () => {
             ))}
           </nav>
 
-          {/* Language Toggle & CTA */}
-          <div className="hidden md:flex items-center space-x-4">
-            <Button
-              variant="outline"
-              size="sm"
-              onClick={toggleLanguage}
-              className="flex items-center space-x-1"
-            >
-              <Globe className="w-4 h-4" />
-              <span>{language.toUpperCase()}</span>
-            </Button>
+          {/* CTA Button */}
+          <div className="hidden md:flex items-center">
             <Button 
               className="bg-brand-blue hover:bg-brand-blue-dark"
               onClick={scrollToContact}
@@ -104,16 +90,7 @@ const Header = () => {
                   <span>{item.name}</span>
                 </a>
               ))}
-              <div className="px-4 pt-4 space-y-2">
-                <Button
-                  variant="outline"
-                  size="sm"
-                  onClick={toggleLanguage}
-                  className="w-full flex items-center justify-center space-x-1"
-                >
-                  <Globe className="w-4 h-4" />
-                  <span>{language.toUpperCase()}</span>
-                </Button>
+              <div className="px-4 pt-4">
                 <Button 
                   className="w-full bg-brand-blue hover:bg-brand-blue-dark"
                   onClick={scrollToContact}
