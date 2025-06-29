@@ -20,7 +20,7 @@ const Services = () => {
       features: ['Vérification des titres de propriété', 'Négociation de contrats', 'Suivi notarial complet'],
       details: 'Nous vous accompagnons dans toutes les démarches juridiques et administratives liées à votre acquisition. Notre équipe juridique vérifie la validité des titres, s\'assure de la conformité réglementaire et vous protège contre tous les risques juridiques. Nous gérons également les relations avec les notaires et les administrations.',
       color: 'bg-brand-violet',
-      image: 'https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?auto=format&fit=crop&w=800&q=80'
+      image: '/lovable-uploads/9ca2326a-9c4b-4563-bd39-8f515fd498ea.png'
     },
     {
       icon: PenTool,
