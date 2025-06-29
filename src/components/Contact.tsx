@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Phone, Mail, MapPin, Clock, Send } from 'lucide-react';
 import { Button } from '@/components/ui/button';
@@ -11,19 +10,19 @@ const Contact = () => {
     {
       icon: Phone,
       title: 'Téléphone',
-      details: ['+221 77 123 45 67', '+33 1 23 45 67 89'],
+      details: ['Sénégal: 00221 77 450 68 39', 'France: 0033 7 63 79 63 62'],
       color: 'bg-senegal-green'
     },
     {
       icon: Mail,
       title: 'Email',
-      details: ['contact@woorimmo.com', 'conseil@woorimmo.com'],
+      details: ['contact@woorimmo.com'],
       color: 'bg-senegal-gold'
     },
     {
       icon: MapPin,
-      title: 'Adresses',
-      details: ['Dakar, Almadies', 'Paris, République'],
+      title: 'Adresse',
+      details: ['Centre Avicole de Grand Mbao,', 'Villa N° 506, Dakar - Sénégal'],
       color: 'bg-senegal-red'
     },
     {
