@@ -29,7 +29,7 @@ const Services = () => {
       features: ['Plans personnalisés', 'Architecture bioclimatique', 'Respect des normes locales'],
       details: 'Nos architectes conçoivent des plans sur mesure adaptés au climat tropical et aux spécificités du Sénégal. Nous privilégions une architecture bioclimatique qui optimise le confort thermique naturel, réduit les coûts énergétiques et respecte l\'environnement local tout en intégrant vos préférences esthétiques.',
       color: 'bg-brand-purple',
-      image: 'https://images.unsplash.com/photo-1473091534298-04dcbce3278c?auto=format&fit=crop&w=800&q=80'
+      image: '/lovable-uploads/503f2eda-78d5-492c-afe8-dc0104f76fb4.png'
     },
     {
       icon: Construction,
