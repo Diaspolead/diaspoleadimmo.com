@@ -56,7 +56,7 @@ const Services = () => {
       features: ['Rénovation complète', 'Entretien préventif', 'Mise aux normes'],
       details: 'Nous prenons soin de votre patrimoine immobilier avec des services de rénovation et d\'entretien adaptés au climat sénégalais. Notre équipe intervient pour la maintenance préventive, les réparations urgentes, et les projets de rénovation pour valoriser vos biens. Nous utilisons des matériaux résistants et durables.',
       color: 'bg-brand-purple',
-      image: 'https://images.unsplash.com/photo-1531297484001-80022131f5a1?auto=format&fit=crop&w=800&q=80'
+      image: '/lovable-uploads/ce4bda76-9ffb-4df8-9033-a5801d21ef1f.png'
     }
   ];
 
