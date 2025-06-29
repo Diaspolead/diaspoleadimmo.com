@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { Award, Globe, Heart, Target } from 'lucide-react';
 import { Card, CardContent } from '@/components/ui/card';
@@ -76,47 +77,6 @@ const About = () => {
                       <p className="text-gray-600">{value.description}</p>
                     </div>
                   </div>
-                </CardContent>
-              </Card>
-            ))}
-          </div>
-        </div>
-
-        {/* Team section */}
-        <div className="mt-20">
-          <h3 className="text-2xl font-bold text-center text-gray-900 mb-12">Notre Équipe</h3>
-          
-          <div className="grid md:grid-cols-3 gap-8">
-            {[
-              {
-                name: 'Aminata Diallo',
-                role: 'Directrice Générale',
-                description: 'Expert en investissement immobilier, 15 ans d\'expérience diaspora',
-                image: 'https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&w=400&q=80'
-              },
-              {
-                name: 'Mamadou Fall',
-                role: 'Directeur Commercial',
-                description: 'Spécialiste marché sénégalais, réseau étendu de partenaires',
-                image: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&w=400&q=80'
-              },
-              {
-                name: 'Fatou Sarr',
-                role: 'Responsable Juridique',
-                description: 'Avocate spécialisée droit immobilier et transactions internationales',
-                image: 'https://images.unsplash.com/photo-1594736797933-d0b22d3fbc90?auto=format&fit=crop&w=400&q=80'
-              }
-            ].map((member, index) => (
-              <Card key={index} className="text-center hover:shadow-lg transition-shadow duration-300">
-                <CardContent className="p-6">
-                  <img
-                    src={member.image}
-                    alt={member.name}
-                    className="w-24 h-24 rounded-full mx-auto mb-4 object-cover"
-                  />
-                  <h4 className="font-semibold text-gray-900 mb-1">{member.name}</h4>
-                  <p className="text-brand-blue font-medium mb-2">{member.role}</p>
-                  <p className="text-sm text-gray-600">{member.description}</p>
                 </CardContent>
               </Card>
             ))}
