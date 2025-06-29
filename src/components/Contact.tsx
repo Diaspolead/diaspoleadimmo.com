@@ -1,5 +1,5 @@
 import React from 'react';
-import { Phone, Mail, MapPin, Clock, Send } from 'lucide-react';
+import { Phone, Mail, MapPin, Send } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
@@ -24,12 +24,6 @@ const Contact = () => {
       title: 'Adresse',
       details: ['Centre Avicole de Grand Mbao,', 'Villa N° 506, Dakar - Sénégal'],
       color: 'bg-senegal-red'
-    },
-    {
-      icon: Clock,
-      title: 'Horaires',
-      details: ['Lun-Ven: 9h-18h', 'Sam: 9h-13h'],
-      color: 'bg-senegal-green'
     }
   ];
 
