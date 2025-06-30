@@ -35,6 +35,11 @@ const Hero = () => {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* Left content */}
           <div className="text-white animate-fade-in">
+            <div className="mb-6">
+              <p className="text-lg font-bold text-brand-blue bg-white/10 backdrop-blur-sm px-4 py-2 rounded-lg inline-block">
+                La garantie de vos projets immobiliers au Sénégal
+              </p>
+            </div>
             
             <h1 className="text-4xl md:text-6xl font-bold leading-tight mb-6">
               Votre Partenaire pour tous vos
