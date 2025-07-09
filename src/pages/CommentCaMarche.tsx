@@ -5,6 +5,7 @@ import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
+import { Link } from 'react-router-dom';
 
 const CommentCaMarche = () => {
   const steps = [
@@ -111,10 +112,12 @@ const CommentCaMarche = () => {
             Contactez-nous dès aujourd'hui pour une consultation gratuite et personnalisée
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button size="lg" className="bg-brand-blue hover:bg-brand-blue-dark">
-              Démarrer Mon Projet
-              <ArrowRight className="ml-2 w-5 h-5" />
-            </Button>
+            <Link to="/contact">
+              <Button size="lg" className="bg-brand-blue hover:bg-brand-blue-dark">
+                Démarrer Mon Projet
+                <ArrowRight className="ml-2 w-5 h-5" />
+              </Button>
+            </Link>
             <Button variant="outline" size="lg">
               Nos Services
             </Button>
