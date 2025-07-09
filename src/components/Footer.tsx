@@ -40,9 +40,9 @@ const Footer = () => {
           <div className="space-y-6">
             <div className="flex items-center space-x-3">
               <img
-                src="/lovable-uploads/4a910d3d-9ec1-43c7-9963-f6d02ddad0a2.png"
+                src="/lovable-uploads/08ac5725-8608-40f6-a631-5d7a2455d5b5.png"
                 alt="DiaspoLead Immo"
-                className="h-12 w-auto"
+                className="h-16 w-auto"
               />
             </div>
             
