@@ -28,13 +28,11 @@ const Header = () => {
           {/* Logo */}
           <div className="flex items-center">
             <div className="flex items-center space-x-3">
-              <div className="w-10 h-10 bg-brand-blue rounded-lg flex items-center justify-center">
-                <Building className="w-6 h-6 text-white" />
-              </div>
-              <div>
-                <h1 className="text-xl font-bold text-brand-blue">WOOR IMMO</h1>
-                <p className="text-xs text-gray-500">La garantie de vos projets immobiliers au Sénégal</p>
-              </div>
+              <img
+                src="/lovable-uploads/d05501c7-9f75-49af-899d-0902e27aeafa.png"
+                alt="DiaspoLead Immo - La garantie de vos projets immobiliers au Sénégal"
+                className="h-12 w-auto"
+              />
             </div>
           </div>
 
