@@ -53,7 +53,7 @@ const Services = () => {
       icon: Wrench,
       title: 'Rénovation & Entretien',
       description: 'Valorisation et maintenance de votre patrimoine',
-      features: ['Rénovation complète', 'Entretien préventif', 'Mise aux normes'],
+      features: ['Rénovation complète', 'Entretien préventif'],
       details: 'Nous prenons soin de votre patrimoine immobilier avec des services de rénovation et d\'entretien adaptés au climat sénégalais. Notre équipe intervient pour la maintenance préventive, les réparations urgentes, et les projets de rénovation pour valoriser vos biens. Nous utilisons des matériaux résistants et durables.',
       color: 'bg-brand-purple',
       image: '/lovable-uploads/ce4bda76-9ffb-4df8-9033-a5801d21ef1f.png'
