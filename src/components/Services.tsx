@@ -35,7 +35,7 @@ const Services = () => {
       icon: Construction,
       title: 'Construction',
       description: 'Réalisation clés en main avec matériaux de qualité',
-      features: ['Gestion de chantier jusqu\'à la livraison effective', 'Suivi qualité rigoureux'],
+      features: ['Gestion de chantier jusqu\'à la livraison', 'Suivi qualité rigoureux'],
       details: 'Nous prenons en charge l\'intégralité de votre projet de construction, de la fondation à la remise des clés. Notre réseau d\'artisans qualifiés et notre système de contrôle qualité garantissent une construction aux normes internationales. Nous utilisons des matériaux adaptés au climat local et respectueux de l\'environnement.',
       color: 'bg-brand-blue',
       image: '/lovable-uploads/217d0c6e-85eb-4d1a-8beb-d9e997afd5f4.png'
