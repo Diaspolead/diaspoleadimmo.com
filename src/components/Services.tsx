@@ -8,7 +8,7 @@ const Services = () => {
     {
       icon: Search,
       title: 'Recherche & Sélection de biens',
-      description: 'Identification des meilleures opportunités selon vos critères et budget',
+      description: 'Identification des meilleures opportunités selon vos critères et budget: achat de terrain, de maison, d\'appartement',
       features: ['Analyse de marché approfondie', 'Rapports détaillés avec photos'],
       details: 'Notre équipe d\'experts analyse le marché immobilier sénégalais pour identifier les meilleures opportunités d\'investissement. Nous utilisons des critères précis basés sur vos besoins, votre budget et vos objectifs d\'investissement. Chaque bien est évalué selon sa localisation, son potentiel de valorisation et sa rentabilité.',
       color: 'bg-brand-blue',
