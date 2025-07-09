@@ -44,7 +44,7 @@ const Services = () => {
       icon: Key,
       title: 'Gestion locative',
       description: 'Administration complète de vos biens immobiliers',
-      features: ['Recherche de locataires', 'Encaissement des loyers', 'Maintenance préventive'],
+      features: ['Recherche de locataires', 'Encaissement des loyers'],
       details: 'Notre service de gestion locative vous permet de rentabiliser votre investissement sans contrainte. Nous nous occupons de la recherche et sélection des locataires, de l\'encaissement des loyers, des états des lieux, et de toute la gestion administrative. Un reporting mensuel vous tient informé de la performance de votre bien.',
       color: 'bg-brand-violet',
       image: 'https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=800&q=80'
