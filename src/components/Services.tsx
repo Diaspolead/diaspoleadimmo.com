@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Building2, Search, FileText, PenTool, Construction, Key, Wrench } from 'lucide-react';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
+import { Link } from 'react-router-dom';
 
 const Services = () => {
   const services = [
@@ -122,9 +123,9 @@ const Services = () => {
             <p className="text-lg mb-6 opacity-90">
               Bénéficiez d'une consultation gratuite avec nos experts
             </p>
-            <button className="bg-white text-brand-blue font-semibold px-8 py-3 rounded-lg hover:bg-gray-100 transition-colors duration-200">
+            <Link to="/contact" className="bg-white text-brand-blue font-semibold px-8 py-3 rounded-lg hover:bg-gray-100 transition-colors duration-200 inline-block">
               Réserver Ma Consultation
-            </button>
+            </Link>
           </div>
         </div>
       </div>
