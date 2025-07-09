@@ -47,7 +47,7 @@ const About = () => {
               </p>
               
               <p className="leading-relaxed">
-                Notre équipe biculturelle, dirigée par des experts ayant vécu l'expérience 
+                Notre équipe, dirigée par des experts ayant vécu l'expérience 
                 de la diaspora, vous offre un accompagnement personnalisé qui va au-delà 
                 de la simple transaction immobilière. Nous sommes vos yeux et vos mains 
                 sur le terrain sénégalais.
