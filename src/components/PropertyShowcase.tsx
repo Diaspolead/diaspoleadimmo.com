@@ -56,7 +56,7 @@ const PropertyShowcase = () => {
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
             Découvrez quelques-uns des projets que nous avons accompagnés 
-            avec succès pour nos clients de la diaspora.
+            avec succès.
           </p>
         </div>
 
