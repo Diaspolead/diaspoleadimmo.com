@@ -24,7 +24,7 @@ const Hero = () => {
       {/* Background with overlay */}
       <div className="absolute inset-0 z-0">
         <img
-          src="/lovable-uploads/54e70f3d-934d-4082-b706-7748d7b9606c.png"
+          src="/lovable-uploads/29828648-48c5-466d-a958-5ec60e51dcd1.png"
           alt="Immeuble résidentiel moderne au Sénégal"
           className="w-full h-full object-cover"
         />
