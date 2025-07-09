@@ -118,9 +118,11 @@ const CommentCaMarche = () => {
                 <ArrowRight className="ml-2 w-5 h-5" />
               </Button>
             </Link>
-            <Button variant="outline" size="lg">
-              Nos Services
-            </Button>
+            <Link to="/services">
+              <Button variant="outline" size="lg">
+                Nos Services
+              </Button>
+            </Link>
           </div>
         </div>
       </section>
