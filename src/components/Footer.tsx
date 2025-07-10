@@ -42,7 +42,7 @@ const Footer = () => {
               <img
                 src="/lovable-uploads/08ac5725-8608-40f6-a631-5d7a2455d5b5.png"
                 alt="DiaspoLead Immo"
-                className="h-16 w-auto"
+                className="h-20 w-auto"
               />
             </div>
             
