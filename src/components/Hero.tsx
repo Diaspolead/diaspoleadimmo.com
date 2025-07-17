@@ -24,8 +24,8 @@ const Hero = () => {
       {/* Background with overlay */}
       <div className="absolute inset-0 z-0">
         <img
-          src="/lovable-uploads/29828648-48c5-466d-a958-5ec60e51dcd1.png"
-          alt="Immeuble résidentiel moderne au Sénégal"
+          src="/lovable-uploads/ec362fa9-4d94-4cd0-92aa-21ae8ceddea0.png"
+          alt="Maison moderne au Sénégal"
           className="w-full h-full object-cover"
         />
         <div className="absolute inset-0 bg-gradient-to-r from-black/70 via-black/50 to-transparent"></div>
