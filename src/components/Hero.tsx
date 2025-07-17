@@ -37,8 +37,11 @@ const Hero = () => {
             </h1>
             
             <p className="text-xl text-gray-300 mb-8 leading-relaxed">
-              Accompagnement complet pour la diaspora et les investisseurs internationaux. 
-              De l'acquisition à la gestion, nous guidons chaque étape de votre projet immobilier.
+              Vous avez un projet immobilier au Sénégal (réalisation de plan, construction, achat/vente de terrain, de maison ou d'appartement, location, rénovation et décoration).
+            </p>
+            
+            <p className="text-lg text-gray-400 mb-8 leading-relaxed">
+              Vous nous détaillez précisément votre demande par mail, par téléphone ou en remplissant le formulaire de contact.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 mb-12">
