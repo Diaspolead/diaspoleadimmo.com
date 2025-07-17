@@ -22,7 +22,7 @@ const Hero = () => {
   return (
     <section id="home" className="relative min-h-screen flex items-center justify-center overflow-hidden">
       {/* Background with solid color */}
-      <div className="absolute inset-0 z-0 bg-gradient-to-br from-blue-700 via-blue-600 to-blue-800">
+      <div className="absolute inset-0 z-0 bg-gradient-to-br from-blue-800 via-blue-700 to-blue-900">
       </div>
 
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-32">
