@@ -37,9 +37,7 @@ const Hero = () => {
             </h1>
             
             <p className="text-xl text-gray-300 mb-8 leading-relaxed">
-              DiaspoLead Immo accompagne ses clients<br />
-              en particulier la diaspora africaine et des investisseurs internationaux<br />
-              à réaliser leurs projets immobiliers au Sénégal, en toute sérénité.
+              DiaspoLead Immo accompagne ses clients en particulier la diaspora africaine et des investisseurs internationaux à réaliser leurs projets immobiliers au Sénégal, en toute sérénité.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 mb-12">
