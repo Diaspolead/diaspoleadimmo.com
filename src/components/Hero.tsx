@@ -31,8 +31,8 @@ const Hero = () => {
           <div className="text-white animate-fade-in">
             
             <h1 className="text-4xl md:text-6xl font-bold leading-tight mb-6">
-              Votre Partenaire pour tous vos
-              <span className="block text-white">Projets immobiliers</span>
+              Votre Partenaire de Confiance pour vos
+              <span className="block text-white">Projets Immobiliers</span>
               au Sénégal
             </h1>
             
