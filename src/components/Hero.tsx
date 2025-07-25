@@ -65,7 +65,7 @@ const Hero = () => {
             {/* Large Logo */}
             <div className="flex justify-center mb-8">
               <img 
-                src="/lovable-uploads/ff5aa166-166d-43b9-908c-0c2e2954243e.png" 
+                src="/lovable-uploads/40e7bf86-fb11-463f-9e47-b3636a199978.png" 
                 alt="DiaspoLead Immo Logo" 
                 className="w-64 h-64 object-contain"
               />
