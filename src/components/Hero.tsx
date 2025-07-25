@@ -21,6 +21,15 @@ const Hero = () => {
 
   return (
     <section id="home" className="relative min-h-screen flex items-center justify-center overflow-hidden">
+      {/* Logo en haut à gauche */}
+      <div className="absolute top-8 left-8 z-20">
+        <img 
+          src="/lovable-uploads/e92d95a7-5188-43f7-aa28-4adac7f74f0c.png" 
+          alt="DiaspoLead Immo Logo" 
+          className="w-24 h-24 object-contain"
+        />
+      </div>
+
       {/* Background with solid color */}
       <div className="absolute inset-0 z-0 bg-gradient-to-br from-slate-900 via-blue-900 to-slate-950">
       </div>
@@ -62,14 +71,6 @@ const Hero = () => {
 
           {/* Right content - Logo and Trust indicators */}
           <div className="space-y-6 animate-fade-in">
-            {/* Large Logo */}
-            <div className="flex justify-center mb-8">
-              <img 
-                src="/lovable-uploads/b4d20c4f-f3ba-455c-9e0b-6dc28bfcf951.png" 
-                alt="DiaspoLead Immo Logo" 
-                className="w-64 h-64 object-contain"
-              />
-            </div>
             
             
             <Card className="p-6 bg-brand-blue">
