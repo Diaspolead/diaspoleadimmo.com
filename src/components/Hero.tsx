@@ -63,14 +63,6 @@ const Hero = () => {
           {/* Right content - Logo and Trust indicators */}
           <div className="space-y-6 animate-fade-in">
             
-            {/* Large Logo */}
-            <div className="flex justify-center mb-8">
-              <img 
-                src="/lovable-uploads/ceb0a20f-85e0-45ea-baf2-fb0b97d4f60e.png" 
-                alt="DiaspoLead Immo Logo" 
-                className="w-64 h-64 object-contain"
-              />
-            </div>
             
             <Card className="p-6 bg-brand-blue">
               <div className="flex items-start space-x-4">
