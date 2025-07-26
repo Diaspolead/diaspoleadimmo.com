@@ -24,7 +24,7 @@ const Hero = () => {
       {/* Logo en haut à gauche */}
       <div className="absolute top-8 left-8 z-20">
         <img 
-          src="/lovable-uploads/eed78eed-2ddc-4169-9957-8dea58aade87.png" 
+          src="/lovable-uploads/cd37d9be-26d9-4b2f-9370-8d92742acec7.png" 
           alt="DiaspoLead Immo Logo" 
           className="w-24 h-24 object-contain"
         />
