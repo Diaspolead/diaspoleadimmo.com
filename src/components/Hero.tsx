@@ -21,14 +21,6 @@ const Hero = () => {
 
   return (
     <section id="home" className="relative min-h-screen flex items-center justify-center overflow-hidden">
-      {/* Logo en haut à gauche */}
-      <div className="absolute top-8 left-8 z-20">
-        <img 
-          src="/lovable-uploads/cd37d9be-26d9-4b2f-9370-8d92742acec7.png" 
-          alt="DiaspoLead Immo Logo" 
-          className="w-24 h-24 object-contain"
-        />
-      </div>
 
       {/* Background with solid color */}
       <div className="absolute inset-0 z-0 bg-gradient-to-br from-slate-900 via-blue-900 to-slate-950">
