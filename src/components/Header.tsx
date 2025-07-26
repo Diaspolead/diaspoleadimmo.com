@@ -27,13 +27,9 @@ const Header = () => {
         <div className="flex justify-between items-center h-20">
           {/* Logo */}
           <div className="flex items-center">
-            <div className="flex items-center space-x-3">
-              <img
-                src="/lovable-uploads/7c42b477-1a73-4282-9dc7-72620d718da8.png"
-                alt="DiaspoLead Immo - La garantie de vos projets immobiliers au Sénégal"
-                className="h-16 w-auto"
-              />
-            </div>
+            <a href="/" className="flex items-center">
+              <span className="text-2xl font-bold text-brand-blue">DiaspoLead Immo</span>
+            </a>
           </div>
 
           {/* Desktop Navigation */}
