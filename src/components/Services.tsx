@@ -48,7 +48,7 @@ const Services = () => {
       features: ['Recherche de locataires', 'Encaissement des loyers'],
       details: 'Notre service de gestion locative vous permet de rentabiliser votre investissement sans contrainte. Nous nous occupons de la recherche et sélection des locataires, de l\'encaissement des loyers, des états des lieux, et de toute la gestion administrative. Un reporting mensuel vous tient informé de la performance de votre bien.',
       color: 'bg-brand-violet',
-      image: '/lovable-uploads/b095397c-6cd1-4605-9e92-854e98eba9f1.png'
+      image: '/lovable-uploads/082b92a0-6722-42c0-b616-b6b37de09a63.png'
     },
     {
       icon: Wrench,
