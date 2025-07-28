@@ -28,7 +28,11 @@ const Header = () => {
           {/* Logo */}
           <div className="flex items-center">
             <a href="/" className="flex items-center">
-              <span className="text-2xl font-bold text-brand-blue">DiaspoLead Immo</span>
+              <img
+                src="/lovable-uploads/cd1fd34f-8f4f-490d-8719-57ebb1954463.png"
+                alt="DiaspoLead Immo - La garantie de vos projets immobiliers au Sénégal"
+                className="h-12 w-auto"
+              />
             </a>
           </div>
 
