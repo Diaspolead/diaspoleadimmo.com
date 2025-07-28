@@ -31,7 +31,7 @@ const Header = () => {
               <img
                 src="/lovable-uploads/cd1fd34f-8f4f-490d-8719-57ebb1954463.png"
                 alt="DiaspoLead Immo - La garantie de vos projets immobiliers au Sénégal"
-                className="h-12 w-auto"
+                className="h-20 w-auto"
               />
             </a>
           </div>
