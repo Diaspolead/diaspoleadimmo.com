@@ -23,7 +23,7 @@ const About = () => {
     {
       icon: Target,
       title: 'Résultats',
-      description: 'Focus sur la réussite concrète de vos projets'
+      description: 'Nous nous focamisons sur la réussite concrète de vos projets'
     }
   ];
 
