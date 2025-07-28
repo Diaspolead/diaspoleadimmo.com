@@ -32,9 +32,7 @@ const Hero = () => {
           <div className="text-white animate-fade-in">
             
             <h1 className="text-4xl md:text-6xl font-bold leading-tight mb-6">
-              Votre Partenaire de Confiance pour vos
-              <span className="text-white">Projets Immobiliers</span>
-              <span className="block text-white">au Sénégal</span>
+              <span className="text-white">Le Partenaire de Confiance de la Diaspora et des Investisseurs internationaux pour leurs Projets Immobiliers au Sénégal</span>
             </h1>
             
             <p className="text-xl text-gray-300 mb-8 leading-relaxed">
