@@ -63,7 +63,7 @@ const Hero = () => {
           <div className="relative animate-fade-in">
             <div className="relative rounded-lg overflow-hidden shadow-2xl">
               <img
-                src="/lovable-uploads/964d2974-8f58-4df9-8b9f-5f3b03e87012.png"
+                src="/lovable-uploads/6174fe92-20e6-47f0-a201-8570ef5c36e0.png"
                 alt="Villa moderne au Sénégal - Projet DiaspoLead Immo"
                 className="w-full h-auto object-cover"
               />
