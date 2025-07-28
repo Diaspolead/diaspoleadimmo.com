@@ -59,46 +59,6 @@ const Hero = () => {
             </div>
           </div>
 
-          {/* Right content - Logo and Trust indicators */}
-          <div className="space-y-6 animate-fade-in">
-            
-            
-            <Card className="p-6 bg-brand-blue">
-              <div className="flex items-start space-x-4">
-                <div className="w-12 h-12 bg-white rounded-lg flex items-center justify-center">
-                  <MapPin className="w-6 h-6 text-brand-blue" />
-                </div>
-                <div>
-                  <h3 className="font-semibold text-white mb-2">Présence Locale</h3>
-                  <p className="text-white/90">Bureau permanent à Dakar avec équipe locale expérimentée</p>
-                </div>
-              </div>
-            </Card>
-
-            <Card className="p-6 bg-brand-violet">
-              <div className="flex items-start space-x-4">
-                <div className="w-12 h-12 bg-white rounded-lg flex items-center justify-center">
-                  <Users className="w-6 h-6 text-brand-violet" />
-                </div>
-                <div>
-                  <h3 className="font-semibold text-white mb-2">Expertise Diaspora</h3>
-                  <p className="text-white/90">Compréhension unique des besoins de la diaspora sénégalaise</p>
-                </div>
-              </div>
-            </Card>
-
-            <Card className="p-6 bg-brand-purple">
-              <div className="flex items-start space-x-4">
-                <div className="w-12 h-12 bg-white rounded-lg flex items-center justify-center">
-                  <Star className="w-6 h-6 text-brand-purple" />
-                </div>
-                <div>
-                  <h3 className="font-semibold text-white mb-2">Service Premium</h3>
-                  <p className="text-white/90">Accompagnement personnalisé de A à Z pour chaque client</p>
-                </div>
-              </div>
-            </Card>
-          </div>
         </div>
       </div>
     </section>
