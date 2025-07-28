@@ -12,7 +12,7 @@ const About = () => {
     },
     {
       icon: Award,
-      title: 'Excellence',
+      title: 'Expertise professionnelle',
       description: 'Standards élevés dans chaque aspect de notre service'
     },
     {
