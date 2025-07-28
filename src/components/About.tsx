@@ -17,8 +17,8 @@ const About = () => {
     },
     {
       icon: Globe,
-      title: 'Vision Internationale',
-      description: 'Expertise locale combinée à une approche globale'
+      title: 'Sécurité et transparence',
+      description: 'Processus sécurisés et transparents pour vos investissements'
     },
     {
       icon: Target,
