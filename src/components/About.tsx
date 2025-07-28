@@ -18,7 +18,7 @@ const About = () => {
     {
       icon: Globe,
       title: 'Sécurité et transparence',
-      description: 'Processus sécurisés et transparents pour vos investissements'
+      description: 'Nous vous garantissons la réalisation de vos projets immobiliers en respectant les normes légales et réglementaires en vigueur.'
     },
     {
       icon: Target,
