@@ -13,7 +13,7 @@ const About = () => {
     {
       icon: Award,
       title: 'Expertise professionnelle',
-      description: 'Standards élevés dans chaque aspect de notre service'
+      description: 'Nous mettons à votre disposition une expertise professionnelle pour vous accompagner dans tous vos projets immobiliers au Sénégal.'
     },
     {
       icon: Globe,
