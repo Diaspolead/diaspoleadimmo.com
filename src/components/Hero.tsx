@@ -61,11 +61,11 @@ const Hero = () => {
 
           {/* Right content - Property Image */}
           <div className="relative animate-fade-in">
-            <div className="relative rounded-lg overflow-hidden shadow-2xl">
+            <div className="relative rounded-lg overflow-hidden shadow-2xl h-[600px]">
               <img
                 src="/lovable-uploads/b324cf77-a05d-4c63-a773-939a7d4da3a6.png"
                 alt="Villa moderne au Sénégal - Projet DiaspoLead Immo"
-                className="w-full h-auto object-cover"
+                className="w-full h-full object-cover"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent"></div>
             </div>
