@@ -40,7 +40,7 @@ const About = () => {
             
             <div className="space-y-6 text-gray-700">
               <p className="text-lg leading-relaxed">
-                <strong>WOOR IMMO</strong> est née de la vision de faciliter l'investissement 
+                <strong>DiaspoLead Immo</strong> est née de la vision de faciliter l'accès et l'investissement 
                 immobilier au Sénégal pour la diaspora et les investisseurs internationaux. 
                 Nous comprenons les défis uniques auxquels vous faites face lorsque vous 
                 investissez à distance.
