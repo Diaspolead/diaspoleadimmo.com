@@ -13,7 +13,7 @@ const CommentCaMarche = () => {
       number: 1,
       title: "Définition de votre projet",
       description: "Vous avez un projet immobilier au Sénégal (réalisation de plan, construction, achat/vente de terrain, de maison ou d'appartement, location, rénovation et décoration).",
-      detail: "Vous nous détaillez précisément votre demande par mail, par",
+      detail: "Vous nous détaillez précisément votre demande par mail, par téléphone ou en remplissant le formulaire de contact.",
       icon: FileText,
       color: "bg-teal-600"
     },
