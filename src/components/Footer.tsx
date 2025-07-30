@@ -16,9 +16,8 @@ const Footer = () => {
     ],
     company: [
       'À propos',
-      'Notre équipe',
       'Nos valeurs',
-      'Témoignages'
+      'Contact'
     ],
     resources: [
       'Guide de l\'acheteur',
