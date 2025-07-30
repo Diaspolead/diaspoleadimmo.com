@@ -29,7 +29,7 @@ const Header = () => {
           <div className="flex items-center">
             <a href="/" className="flex items-center">
               <img
-                src="/lovable-uploads/e4777aca-810d-4865-b16c-69b24edabe7c.png"
+                src="/lovable-uploads/15691ec7-3360-43ca-b00c-eac7c66adbf3.png"
                 alt="DiaspoLead Immo - La garantie de vos projets immobiliers au Sénégal"
                 className="h-20 w-auto"
               />
