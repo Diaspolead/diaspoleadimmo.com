@@ -7,10 +7,12 @@ const Footer = () => {
 
   const footerLinks = {
     services: [
-      'Recherche de biens',
-      'Accompagnement juridique',
-      'Gestion de patrimoine',
-      'Conseil en investissement'
+      'Recherche & sélection de biens',
+      'Accompagnement Administratif',
+      'Réalisation de plan',
+      'Construction',
+      'Gestion locative',
+      'Rénovation & Entretien'
     ],
     company: [
       'À propos',
