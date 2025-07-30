@@ -89,7 +89,7 @@ const Footer = () => {
               {footerLinks.services.map((service, index) => (
                 <li key={index}>
                   <a 
-                    href="#" 
+                    href="/services" 
                     className="text-gray-300 hover:text-brand-blue transition-colors duration-200"
                   >
                     {service}
@@ -106,7 +106,7 @@ const Footer = () => {
               {footerLinks.company.map((item, index) => (
                 <li key={index}>
                   <a 
-                    href="#" 
+                    href={item === 'À propos' ? '/a-propos' : item === 'Contact' ? '/contact' : '#'}
                     className="text-gray-300 hover:text-brand-blue transition-colors duration-200"
                   >
                     {item}
@@ -123,7 +123,7 @@ const Footer = () => {
               {footerLinks.resources.map((resource, index) => (
                 <li key={index}>
                   <a 
-                    href="#" 
+                    href="/comment-ca-marche" 
                     className="text-gray-300 hover:text-brand-blue transition-colors duration-200"
                   >
                     {resource}
