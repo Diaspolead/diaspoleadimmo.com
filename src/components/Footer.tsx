@@ -8,7 +8,7 @@ const Footer = () => {
   const footerLinks = {
     services: [
       'Recherche & sélection de biens',
-      'Accompagnement administratif',
+      'Accompagnement Administratif',
       'Réalisation de plan',
       'Construction',
       'Gestion locative',
