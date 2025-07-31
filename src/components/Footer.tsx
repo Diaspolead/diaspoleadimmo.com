@@ -8,7 +8,9 @@ const Footer = () => {
   const footerLinks = {
     services: [
       'Recherche & sélection de biens',
-      'Accompagnement Administratif',
+      'Vérification des titres de propriété',
+      'Accompagnement à l\'acquisition des documents: plan cadastre, bail, demande de permis de construire, titre foncier etc.',
+      'Suivi complet auprès des notaires',
       'Réalisation de plan',
       'Construction',
       'Gestion locative',
