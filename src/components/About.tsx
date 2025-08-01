@@ -34,8 +34,8 @@ const About = () => {
           {/* Left content */}
           <div>
             <h2 className="text-4xl font-bold text-gray-900 mb-6">
-              Votre Partenaire de Confiance
-              <span className="block text-brand-blue">au Sénégal</span>
+              Votre partenaire de confiance pour investir dans
+              <span className="block text-brand-blue">l'immobilier sénégalais</span>
             </h2>
             
             <div className="space-y-6 text-gray-700">
