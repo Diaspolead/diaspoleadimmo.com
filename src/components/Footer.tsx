@@ -126,9 +126,6 @@ const Footer = () => {
               <div>DiaspoLead Immo est une activité du groupe DIASPOLEAD enregistré au RCCM de Dakar sous le n° SN DKR 2024B27087</div>
             </div>
             <div className="flex space-x-6 text-sm text-gray-400">
-              <a href="#" className="hover:text-brand-blue transition-colors duration-200">
-                Mentions légales
-              </a>
               <a href="/politique-de-confidentialite" className="hover:text-brand-blue transition-colors duration-200">
                 Politique de confidentialité
               </a>
