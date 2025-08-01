@@ -9,6 +9,7 @@ import CommentCaMarche from "./pages/CommentCaMarche";
 import ServicesPage from "./pages/Services";
 import APropos from "./pages/APropos";
 import ContactPage from "./pages/Contact";
+import CGU from "./pages/CGU";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -25,6 +26,7 @@ const App = () => (
           <Route path="/comment-ca-marche" element={<CommentCaMarche />} />
           <Route path="/a-propos" element={<APropos />} />
           <Route path="/contact" element={<ContactPage />} />
+          <Route path="/politique-de-confidentialite" element={<CGU />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>

@@ -128,7 +128,7 @@ const Footer = () => {
               <a href="#" className="hover:text-brand-blue transition-colors duration-200">
                 Mentions légales
               </a>
-              <a href="#" className="hover:text-brand-blue transition-colors duration-200">
+              <a href="/politique-de-confidentialite" className="hover:text-brand-blue transition-colors duration-200">
                 Politique de confidentialité
               </a>
               <a href="#" className="hover:text-brand-blue transition-colors duration-200">
