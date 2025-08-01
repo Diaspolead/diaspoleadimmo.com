@@ -42,7 +42,7 @@ const Footer = () => {
             </div>
             
             <p className="text-gray-300 leading-relaxed">
-              Votre partenaire de confiance pour investir dans l'immobilier sénégalais. 
+              Votre partenaire de confiance pour investir dans <span className="whitespace-nowrap">l'immobilier sénégalais.</span> 
               <span className="whitespace-nowrap">Expertise locale, vision internationale.</span>
             </p>
 
