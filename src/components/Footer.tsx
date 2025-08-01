@@ -121,8 +121,9 @@ const Footer = () => {
         {/* Bottom Bar */}
         <div className="mt-12 pt-8 border-t border-gray-800">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
-            <div className="text-gray-400 text-sm">
-              © {currentYear} DiaspoLead Immo. Tous droits réservés.
+            <div className="text-gray-400 text-sm space-y-2">
+              <div>© {currentYear} DiaspoLead Immo. Tous droits réservés.</div>
+              <div>DiaspoLead Immo est une activité du groupe DIASPOLEAD enregistré au RCCM de Dakar sous le n° SN DKR 2024B27087</div>
             </div>
             <div className="flex space-x-6 text-sm text-gray-400">
               <a href="#" className="hover:text-brand-blue transition-colors duration-200">
