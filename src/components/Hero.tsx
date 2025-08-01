@@ -32,7 +32,7 @@ const Hero = () => {
           <div className="text-white animate-fade-in">
             
             <h1 className="text-4xl md:text-6xl font-bold leading-tight mb-6">
-              <span className="text-white">Réalisez vos Projets Immobiliers au Sénégal en étant à distance</span>
+              <span className="text-white">Réalisez vos <span className="whitespace-nowrap">Projets Immobiliers</span> au Sénégal en étant à distance</span>
             </h1>
             
             <p className="text-xl text-gray-300 mb-8 leading-relaxed">
