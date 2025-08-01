@@ -33,10 +33,6 @@ const About = () => {
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           {/* Left content */}
           <div>
-            <h2 className="text-4xl font-bold text-gray-900 mb-6">
-              Votre partenaire de confiance pour investir dans
-              <span className="block text-brand-blue">l'immobilier sénégalais</span>
-            </h2>
             
             <div className="space-y-6 text-gray-700">
               <p className="text-lg leading-relaxed">
