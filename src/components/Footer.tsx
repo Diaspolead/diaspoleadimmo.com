@@ -63,7 +63,7 @@ const Footer = () => {
               </div>
               <div className="flex items-center space-x-3 text-gray-300">
                 <MapPin className="w-5 h-5 text-brand-blue" />
-                <span>Almadies, Dakar - Sénégal</span>
+                <span>Grand Mbao, Dakar - Sénégal</span>
               </div>
             </div>
 
