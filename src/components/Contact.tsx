@@ -16,7 +16,7 @@ const Contact = () => {
     {
       icon: Mail,
       title: 'Email',
-      details: ['contact@woorimmo.com'],
+      details: ['contact@diaspolead-immo.com'],
       color: 'bg-senegal-gold'
     },
     {
