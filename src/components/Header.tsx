@@ -11,7 +11,7 @@ const Header = () => {
     { name: 'Services', href: '/services', icon: Building },
     { name: 'Comment ça marche', href: '/comment-ca-marche', icon: HelpCircle },
     { name: 'À Propos', href: '/a-propos', icon: Users },
-    { name: 'Nos valeurs', href: '#nos-valeurs', icon: Users },
+    { name: 'Nos valeurs', href: '/nos-valeurs', icon: Users },
     { name: 'Contact', href: '/contact', icon: Phone },
   ];
 

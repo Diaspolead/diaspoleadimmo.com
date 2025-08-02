@@ -10,6 +10,7 @@ import ServicesPage from "./pages/Services";
 import APropos from "./pages/APropos";
 import ContactPage from "./pages/Contact";
 import CGU from "./pages/CGU";
+import NosValeurs from "./pages/NosValeurs";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -25,6 +26,7 @@ const App = () => (
           <Route path="/services" element={<ServicesPage />} />
           <Route path="/comment-ca-marche" element={<CommentCaMarche />} />
           <Route path="/a-propos" element={<APropos />} />
+          <Route path="/nos-valeurs" element={<NosValeurs />} />
           <Route path="/contact" element={<ContactPage />} />
           <Route path="/politique-de-confidentialite" element={<CGU />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
