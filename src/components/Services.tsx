@@ -18,7 +18,7 @@ const Services = () => {
       icon: FileText,
       title: 'Accompagnement Administratif',
       description: 'Gestion complète des aspects légaux et administratifs',
-      features: ['Vérification des titres de propriété', 'Accompagnement à l\'acquisition des documents: plan cadastre, bail, demande de permis de construire, titre foncier etc.'],
+      features: ['Vérification des titres de propriété', '• Accompagnement à l\'acquisition des documents: plan cadastre, bail, demande de permis de construire, titre foncier etc.'],
       details: 'Nous vous accompagnons dans toutes les démarches juridiques et administratives liées à votre acquisition. Notre équipe juridique vérifie la validité des titres, s\'assure de la conformité réglementaire et vous protège contre tous les risques juridiques. Nous gérons également les relations avec les notaires et les administrations.',
       color: 'bg-brand-violet',
       image: '/lovable-uploads/9ca2326a-9c4b-4563-bd39-8f515fd498ea.png'
