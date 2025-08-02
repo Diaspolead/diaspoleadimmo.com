@@ -39,7 +39,7 @@ const PropertyShowcase = () => {
     },
     {
       id: 4,
-      title: 'Villa Contemporaine',
+      title: 'Bureaux Contemporains',
       location: 'Dakar',
       type: 'Villa',
       image: '/lovable-uploads/8995c1ed-f6bd-4cb9-8b8f-b028309a8b3a.png'
