@@ -63,7 +63,7 @@ const About = () => {
 
           {/* Right content - Values */}
           <div className="space-y-6">
-            <h3 className="text-2xl font-bold text-gray-900 mb-8">Nos Valeurs</h3>
+            <h3 id="nos-valeurs" className="text-2xl font-bold text-gray-900 mb-8">Nos Valeurs</h3>
             
             {values.map((value, index) => (
               <Card key={index} className="border-l-4 border-brand-blue hover:shadow-lg transition-shadow duration-300">
