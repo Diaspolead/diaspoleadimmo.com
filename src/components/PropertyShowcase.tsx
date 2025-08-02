@@ -49,7 +49,7 @@ const PropertyShowcase = () => {
       title: 'Résidence Moderne avec Balcons',
       location: 'Dakar',
       type: 'Résidence',
-      image: '/lovable-uploads/82b20366-8475-4d4c-a8d0-cf7bee95fdc0.png'
+      image: '/lovable-uploads/0ac21b06-d087-45d5-b91c-8cdfce0ffbb1.png'
     }
   ];
 
