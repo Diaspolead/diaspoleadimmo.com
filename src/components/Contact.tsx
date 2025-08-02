@@ -66,6 +66,11 @@ const Contact = () => {
                       {info.details.map((detail, idx) => (
                         <p key={idx} className="text-gray-600 text-sm">{detail}</p>
                       ))}
+                      {info.title === 'Téléphone' && (
+                        <p className="text-gray-600 text-sm mt-2">
+                          Vous pouvez nous contacter via WhatsApp
+                        </p>
+                      )}
                     </div>
                   </div>
                 </CardContent>
