@@ -17,7 +17,7 @@ const CGU = () => {
                 Bienvenue sur le site de DiaspoLead Immo !
               </p>
               <p>
-                Les présentes conditions générales définissent les règles d'utilisation du site web de DiaspoLead Immo, situé à l'adresse https://diaspolead-immo.com.
+                Les présentes conditions générales définissent les règles d'utilisation du site web de DiaspoLead Immo, situé à l'adresse https://diaspoleadimmo.com.
               </p>
               <p>
                 En accédant à ce site, nous considérons que vous acceptez ces conditions. Ne continuez pas à utiliser DiaspoLead Immo si vous n'acceptez pas tous les termes et conditions énoncés sur cette page.
@@ -99,7 +99,7 @@ const CGU = () => {
                 En application de la réglementation applicable aux données à caractère personnel, les utilisateurs disposent des droits suivants :
               </p>
               <ul className="list-disc pl-6 space-y-2">
-                <li>le droit d'accès : ils peuvent exercer leur droit d'accès, pour connaître les données personnelles les concernant, en écrivant à l'adresse électronique info@diaspolead-immo.com. Dans ce cas, avant la mise en œuvre de ce droit, la Plateforme peut demander une preuve de l'identité de l'utilisateur afin d'en vérifier l'exactitude ;</li>
+                <li>le droit d'accès : ils peuvent exercer leur droit d'accès, pour connaître les données personnelles les concernant, en écrivant à l'adresse électronique info@diaspoleadimmo.com. Dans ce cas, avant la mise en œuvre de ce droit, la Plateforme peut demander une preuve de l'identité de l'utilisateur afin d'en vérifier l'exactitude ;</li>
                 <li>le droit de rectification : si les données à caractère personnel détenues par la plateforme sont inexactes, ils peuvent demander la mise à jour des informations ;</li>
                 <li>le droit de suppression des données : les utilisateurs peuvent demander la suppression de leurs données à caractère personnel, conformément aux lois applicables en matière de protection des données ;</li>
                 <li>le droit à la limitation du traitement : les utilisateurs peuvent de demander à la Plateforme de limiter le traitement des données personnelles conformément aux hypothèses prévues par le RGPD ;</li>
@@ -107,7 +107,7 @@ const CGU = () => {
                 <li>le droit à la portabilité : ils peuvent réclamer que la plateforme leur remette les données personnelles qu'ils ont fournies pour les transmettre à une nouvelle plateforme.</li>
               </ul>
               <p>
-                Vous pouvez exercer ce droit en nous contactant, à l'adresse suivante par email, à l'adresse : contact@diaspolead-immo.com
+                Vous pouvez exercer ce droit en nous contactant, à l'adresse suivante par email, à l'adresse : contact@diaspoleadimmo.com
               </p>
               <p>
                 Toute demande doit être accompagnée de la photocopie d'un titre d'identité en cours de validité signé et faire mention de l'adresse à laquelle l'éditeur pourra contacter le demandeur. La réponse sera adressée dans le mois suivant la réception de la demande. Ce délai d'un mois peut être prolongé de deux mois si la complexité de la demande et/ou le nombre de demandes l'exigent.
@@ -134,10 +134,10 @@ const CGU = () => {
             <section>
               <h2 className="text-2xl font-semibold text-gray-900 mt-8 mb-4">Photographies et représentation des produits :</h2>
               <p>
-                Vous êtes susceptible de recevoir des offres commerciales de l'éditeur. Si vous ne le souhaitez pas, veuillez nous l'indiquer via contact@diaspolead-immo.com
+                Vous êtes susceptible de recevoir des offres commerciales de l'éditeur. Si vous ne le souhaitez pas, veuillez nous l'indiquer via contact@diaspoleadimmo.com
               </p>
               <p>
-                Vos données sont susceptibles d'être utilisées par les partenaires de l'éditeur à des fins de prospection commerciale, si vous ne le souhaitez pas, veuillez nous l'indiquer via contact@diaspolead-immo.com.
+                Vos données sont susceptibles d'être utilisées par les partenaires de l'éditeur à des fins de prospection commerciale, si vous ne le souhaitez pas, veuillez nous l'indiquer via contact@diaspoleadimmo.com.
               </p>
               <p>
                 Si, lors de la consultation du site, vous accédez à des données à caractère personnel, vous devez vous abstenir de toute collecte, de toute utilisation non autorisée et de tout acte pouvant constituer une atteinte à la vie privée ou à la réputation des personnes. L'éditeur décline toute responsabilité à cet égard. Les données sont conservées et utilisées pour une durée conforme à la législation en vigueur.
@@ -207,7 +207,7 @@ const CGU = () => {
             <section>
               <h2 className="text-2xl font-semibold text-gray-900 mt-8 mb-4">Contact</h2>
               <p>
-                Pour toute demande ou question merci de nous contacter à: contact@diaspolead-immo.com.
+                Pour toute demande ou question merci de nous contacter à: contact@diaspoleadimmo.com.
               </p>
             </section>
           </div>
