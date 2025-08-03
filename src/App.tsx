@@ -10,6 +10,7 @@ import ServicesPage from "./pages/Services";
 import APropos from "./pages/APropos";
 import ContactPage from "./pages/Contact";
 import CGU from "./pages/CGU";
+import PolitiqueConfidentialite from "./pages/PolitiqueConfidentialite";
 import NosValeurs from "./pages/NosValeurs";
 import NotFound from "./pages/NotFound";
 
@@ -28,7 +29,8 @@ const App = () => (
           <Route path="/a-propos" element={<APropos />} />
           <Route path="/nos-valeurs" element={<NosValeurs />} />
           <Route path="/contact" element={<ContactPage />} />
-          <Route path="/politique-de-confidentialite" element={<CGU />} />
+          <Route path="/cgu" element={<CGU />} />
+          <Route path="/politique-de-confidentialite" element={<PolitiqueConfidentialite />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
