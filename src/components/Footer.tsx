@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { Building, Mail, Phone, MapPin, Facebook, Linkedin, Twitter } from 'lucide-react';
+import { Building, Mail, Phone, MapPin } from 'lucide-react';
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -20,11 +20,6 @@ const Footer = () => {
       'Contact'
     ],
   };
-
-  const socialLinks = [
-    { icon: Facebook, href: '#', label: 'Facebook' },
-    { icon: Linkedin, href: '#', label: 'LinkedIn' }
-  ];
 
   return (
     <footer className="bg-gray-900 text-white">
@@ -64,20 +59,6 @@ const Footer = () => {
                 <MapPin className="w-5 h-5 text-brand-blue" />
                 <span>Grand Mbao, Dakar - Sénégal</span>
               </div>
-            </div>
-
-            {/* Social Links */}
-            <div className="flex space-x-4">
-              {socialLinks.map((social, index) => (
-                <a
-                  key={index}
-                  href={social.href}
-                  aria-label={social.label}
-                  className="w-10 h-10 bg-gray-800 rounded-lg flex items-center justify-center hover:bg-brand-blue transition-colors duration-200"
-                >
-                  <social.icon className="w-5 h-5" />
-                </a>
-              ))}
             </div>
           </div>
 
