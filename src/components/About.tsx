@@ -54,7 +54,7 @@ const About = () => {
               </p>
               
               <p className="leading-relaxed">
-                Avec plus de <strong>20 ans d'expérience</strong> dans l'immobilier sénégalais 
+                Avec plus de <strong>20 ans d'expérience</strong> dans le secteur du bâtiment au Sénégal 
                 et un réseau solide de partenaires locaux, nous transformons votre projet 
                 en réalité, en toute sécurité et transparence.
               </p>
