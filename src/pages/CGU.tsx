@@ -97,7 +97,7 @@ const CGU = () => {
             </ul>
             
             <p>
-              Vous pouvez exercer ce droit en nous contactant, à l'adresse suivante par email, à l'adresse : contact@diaspolead-immo.com
+              Vous pouvez exercer ce droit en nous contactant, à l'adresse suivante par email, à l'adresse : contact@diaspoleadimmo.com
             </p>
             
             <p>
@@ -121,10 +121,10 @@ const CGU = () => {
             
             <h2 className="text-2xl font-semibold text-gray-900 mt-8 mb-4">Photographies et représentation des produits :</h2>
             <p>
-              Vous êtes susceptible de recevoir des offres commerciales de l'éditeur. Si vous ne le souhaitez pas, veuillez nous l'indiquer via contact@diaspolead-immo.com
+              Vous êtes susceptible de recevoir des offres commerciales de l'éditeur. Si vous ne le souhaitez pas, veuillez nous l'indiquer via contact@diaspoleadimmo.com
             </p>
             <p>
-              Vos données sont susceptibles d'être utilisées par les partenaires de l'éditeur à des fins de prospection commerciale, si vous ne le souhaitez pas, veuillez nous l'indiquer via contact@diaspolead-immo.com.
+              Vos données sont susceptibles d'être utilisées par les partenaires de l'éditeur à des fins de prospection commerciale, si vous ne le souhaitez pas, veuillez nous l'indiquer via contact@diaspoleadimmo.com.
             </p>
             
             <p>
@@ -163,7 +163,7 @@ const CGU = () => {
             
             <h2 className="text-2xl font-semibold text-gray-900 mt-8 mb-4">Contact</h2>
             <p>
-              Pour toute demande ou question merci de nous contacter à: contact@diaspolead-immo.com.
+              Pour toute demande ou question merci de nous contacter à: contact@diaspoleadimmo.com.
             </p>
           </div>
         </div>
