@@ -16,7 +16,7 @@ const CGU = () => {
             </p>
             
             <p>
-              Les présentes conditions générales définissent les règles d'utilisation du site web de DiaspoLead Immo, situé à l'adresse https://diaspolead-immo.com.
+              Les présentes conditions générales définissent les règles d'utilisation du site web de DiaspoLead Immo, situé à l'adresse https://diaspoleadimmo.com.
             </p>
             
             <p>
@@ -88,7 +88,7 @@ const CGU = () => {
               En application de la réglementation applicable aux données à caractère personnel, les utilisateurs disposent des droits suivants :
             </p>
             <ul className="list-disc pl-6 space-y-2">
-              <li><strong>le droit d'accès :</strong> ils peuvent exercer leur droit d'accès, pour connaître les données personnelles les concernant, en écrivant à l'adresse électronique info@diaspolead-immo.com. Dans ce cas, avant la mise en œuvre de ce droit, la Plateforme peut demander une preuve de l'identité de l'utilisateur afin d'en vérifier l'exactitude ;</li>
+              <li><strong>le droit d'accès :</strong> ils peuvent exercer leur droit d'accès, pour connaître les données personnelles les concernant, en écrivant à l'adresse électronique info@diaspoleadimmo.com. Dans ce cas, avant la mise en œuvre de ce droit, la Plateforme peut demander une preuve de l'identité de l'utilisateur afin d'en vérifier l'exactitude ;</li>
               <li><strong>le droit de rectification :</strong> si les données à caractère personnel détenues par la plateforme sont inexactes, ils peuvent demander la mise à jour des informations ;</li>
               <li><strong>le droit de suppression des données :</strong> les utilisateurs peuvent demander la suppression de leurs données à caractère personnel, conformément aux lois applicables en matière de protection des données ;</li>
               <li><strong>le droit à la limitation du traitement :</strong> les utilisateurs peuvent de demander à la Plateforme de limiter le traitement des données personnelles conformément aux hypothèses prévues par le RGPD ;</li>
