@@ -24,13 +24,6 @@ const PropertyShowcase = () => {
       image: '/lovable-uploads/d1535e04-a215-482c-b941-7b48d44c6e68.png'
     },
     {
-      id: 2,
-      title: 'Villa de Luxe avec Balcons',
-      location: 'Dakar',
-      type: 'Villa',
-      image: '/lovable-uploads/61c96c09-019a-49ae-9388-804df8767e7f.png'
-    },
-    {
       id: 3,
       title: 'Résidence Moderne en Construction',
       location: 'Dakar',
