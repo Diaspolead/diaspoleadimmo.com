@@ -69,7 +69,7 @@ const CGU = () => {
             <section>
               <h2 className="text-2xl font-semibold text-gray-900 mt-8 mb-4">8. Liens hypertextes</h2>
               <p>
-                Le Site peut contenir des liens vers d'autres sites. Diaspolead-immo.com ne peut être tenu responsable du contenu de ces sites tiers ni des dommages pouvant résulter de leur consultation.
+                Le Site peut contenir des liens vers d'autres sites. https://diaspoleadimmo.com ne peut être tenu responsable du contenu de ces sites tiers ni des dommages pouvant résulter de leur consultation.
               </p>
             </section>
 
@@ -83,7 +83,7 @@ const CGU = () => {
             <section>
               <h2 className="text-2xl font-semibold text-gray-900 mt-8 mb-4">10. Modification des CGU</h2>
               <p>
-                [Nom de l'entreprise] se réserve le droit de modifier à tout moment les présentes CGU. Les utilisateurs seront informés des changements via le Site. L'utilisation continue du Site vaut acceptation des CGU modifiées.
+                DiaspoLead Immo se réserve le droit de modifier à tout moment les présentes CGU. Les utilisateurs seront informés des changements via le Site. L'utilisation continue du Site vaut acceptation des CGU modifiées.
               </p>
             </section>
 
