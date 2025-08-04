@@ -52,7 +52,7 @@ const PropertyShowcase = () => {
         {/* Header */}
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold text-gray-900 mb-4">
-            Nos Réalisations récentes
+            Quelques Projets réalisés
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
             Découvrez quelques-uns des projets que nous avons accompagnés 
